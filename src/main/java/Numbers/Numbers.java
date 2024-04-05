@@ -12,7 +12,6 @@ public class Numbers {
         } else {
             z = x - y + 100;
         }
-        System.out.println(z);
         if (y < 0 || z > 50) {
             z = (z - y) / 2;
         }
