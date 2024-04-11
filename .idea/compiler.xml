@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="UnitTestsDummy" />
         <module name="dimitry_bakumenko_maven_at_project2" />
       </profile>
     </annotationProcessing>

@@ -1,42 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>org.example</groupId>
     <artifactId>UnitTestsDummy</artifactId>
     <version>1.0.0</version>
-
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.19.1</version>
+        </dependency>
+        <!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server  -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>4.0.0-alpha-2</version>
+        </dependency>
+        <!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver  -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.19.1</version>
+        </dependency>
+        <!--  https://mvnrepository.com/artifact/junit/junit  -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <!--  https://mvnrepository.com/artifact/org.testng/testng  -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.9.0</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version> <!-- Используйте актуальную версию -->
+            <version>1.2.3</version>
+            <!--  Используйте актуальную версию  -->
         </dependency>
     </dependencies>
-
 </project>
