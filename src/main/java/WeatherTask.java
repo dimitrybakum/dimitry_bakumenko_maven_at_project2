@@ -22,5 +22,6 @@ public class WeatherTask {
         driver.findElement(By.xpath("//*[@id='wob_sd']/div[7]/span")).click();
         driver.findElement(By.xpath("//*[@id='wob_sd']/div[7]/span")).click();
         System.out.println("Temperature for tomorrow at 12:00 will be about " + driver.findElement(By.xpath("//*[@id='wob_tm']")).getText() + "°C");
+        driver.quit();
     }
 }
