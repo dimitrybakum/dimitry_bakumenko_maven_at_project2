@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite BookingTestNG</th></tr>
+<tr><td><a href="#t0">BookingParisSearch</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8 496</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">BookingLondonSearch</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6 931</td><td></td><td></td></tr>
+<tr><td><a href="#t2">BookingPrahaSearch</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13 504</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">BookingTooltips</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4 900</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">33 831</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite BookingTestNG</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BookingParisSearch &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.testNGtests.BookingParisSearchTests</td><td><a href="#m0">BookingParisSearch</a></td><td rowspan="1">1713887368687</td><td rowspan="1">7221</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">BookingLondonSearch &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.testNGtests.BookingLondonSearchTests</td><td><a href="#m1">BookingLondonSearch</a></td><td rowspan="1">1713887376783</td><td rowspan="1">6075</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">BookingPrahaSearch &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.testNGtests.BookingPrahaSearchTests</td><td><a href="#m2">BookingPrahaSearch</a></td><td rowspan="1">1713887383737</td><td rowspan="1">12630</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">BookingTooltips &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.testNGtests.BookingTooltipTests</td><td><a href="#m3">BookingTooltips</a></td><td rowspan="1">1713887397301</td><td rowspan="1">3969</td></tr></tbody>
+</table>
+<h2>BookingParisSearch</h2><h3 id="m0">tests.testNGtests.BookingParisSearchTests#BookingParisSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=123.0.6312.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0194b7f4ce72098104c41a5e3bc25a0, isElementSelected {id=f.59045C1B5B8C691A835D0C1169361CDD.d.A0F551BC47CEC8758151D8F8D136BD54.e.7602}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52182/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d0194b7f4ce72098104c41a5e3bc25a0)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
+Session ID: d0194b7f4ce72098104c41a5e3bc25a0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$26.apply(ExpectedConditions.java:752)
+	at org.openqa.selenium.support.ui.ExpectedConditions$26.apply(ExpectedConditions.java:749)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pages.booking.BookingSearchResultsXPath.selectRating6Checkbox(BookingSearchResultsXPath.java:81)
+	at tests.testNGtests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BookingLondonSearch</h2><h3 id="m1">tests.testNGtests.BookingLondonSearchTests#BookingLondonSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BookingPrahaSearch</h2><h3 id="m2">tests.testNGtests.BookingPrahaSearchTests#BookingPrahaSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BookingTooltips</h2><h3 id="m3">tests.testNGtests.BookingTooltipTests#BookingTooltips</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite junit="true" name="Failed suite [Surefire suite]" verbose="0">
+  <test junit="true" thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.junit.runner.Description">
+        <methods>
+          <include name="testParis"/>
+          <include name="checkToolTips"/>
+          <include name="testParis"/>
+          <include name="checkPraha"/>
+          <include name="w3cSchoolTest"/>
+        </methods>
+      </class> <!-- org.junit.runner.Description -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

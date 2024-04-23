@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite TestNG">
-    <test name="testPersonAge">
+<suite name="Suite BookingTestNG">
+    <test name="BookingParisSearch">
         <classes>
-            <class name="PeopleTest.PersonTestNGTest"/>
+            <class name="tests.testNGtests.BookingParisSearchTests"/>
         </classes>
-    </test><test name="testNumberTestNG">
-    <classes>
-        <class name="NumbersTest.NumbersTestNGTests"/>
-    </classes>
-</test>
+    </test>
+    <test name="BookingLondonSearch">
+        <classes>
+            <class name="tests.testNGtests.BookingLondonSearchTests"/>
+        </classes>
+    </test>
+    <test name="BookingPrahaSearch">
+        <classes>
+            <class name="tests.testNGtests.BookingPrahaSearchTests"/>
+        </classes>
+    </test>
+    <test name="BookingTooltips">
+        <classes>
+            <class name="tests.testNGtests.BookingTooltipTests"/>
+        </classes>
+    </test>
 </suite>

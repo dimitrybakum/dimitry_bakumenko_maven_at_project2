@@ -1,4 +1,4 @@
-package PeopleTest;
+package pages.PeopleTest;
 import org.junit.Rule;
 import org.junit.Test;
 import People.Person;

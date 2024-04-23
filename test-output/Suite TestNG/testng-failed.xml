@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite TestNG]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BookingParisSearch(failed)">
+    <classes>
+      <class name="tests.testNGtests.BookingParisSearchTests">
+        <methods>
+          <include name="myBookingParisCheckRatingXPath"/>
+        </methods>
+      </class> <!-- tests.testNGtests.BookingParisSearchTests -->
+    </classes>
+  </test> <!-- BookingParisSearch(failed) -->
+</suite> <!-- Failed suite [Suite TestNG] -->

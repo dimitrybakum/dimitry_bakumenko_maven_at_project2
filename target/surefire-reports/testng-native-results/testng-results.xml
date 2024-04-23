@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-22T21:25:13 MSK" name="Surefire suite" finished-at="2024-04-22T21:25:13 MSK" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2024-04-22T21:25:13 MSK" name="Surefire test" finished-at="2024-04-22T21:25:13 MSK" duration-ms="37">
+      <class name="tests.BookingParisSearchTests">
+        <test-method signature="myBookingParisCheckRatingXPath()[pri:0, instance:tests.BookingParisSearchTests@59474f18]" started-at="2024-04-22T21:25:13 MSK" name="myBookingParisCheckRatingXPath" finished-at="2024-04-22T21:25:13 MSK" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pages.booking.BookingHomeXPath.getBookingStartPage()" because "this.bookingHomePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.booking.BookingHomeXPath.getBookingStartPage()" because "this.bookingHomePage" is null
+at tests.BookingParisSearchTests.myBookingParisCheckRatingXPath(BookingParisSearchTests.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBookingParisCheckRatingXPath -->
+      </class> <!-- tests.BookingParisSearchTests -->
+      <class name="pages.NumbersTest.NumbersTestNGTests">
+        <test-method is-config="true" signature="name(java.lang.reflect.Method)[pri:0, instance:pages.NumbersTest.NumbersTestNGTests@6adbc9d]" started-at="2024-04-22T21:25:13 MSK" name="name" finished-at="2024-04-22T21:25:13 MSK" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.NumbersTest.NumbersTestNGTests.testNumberTestNG()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="testNumberTestNG()[pri:0, instance:pages.NumbersTest.NumbersTestNGTests@6adbc9d]" started-at="2024-04-22T21:25:13 MSK" name="testNumberTestNG" finished-at="2024-04-22T21:25:13 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberTestNG -->
+      </class> <!-- pages.NumbersTest.NumbersTestNGTests -->
+      <class name="pages.PeopleTest.PersonTestNGTest">
+        <test-method signature="testPersonAgeTestNG()[pri:0, instance:pages.PeopleTest.PersonTestNGTest@34123d65]" started-at="2024-04-22T21:25:13 MSK" name="testPersonAgeTestNG" finished-at="2024-04-22T21:25:13 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonAgeTestNG -->
+        <test-method is-config="true" signature="name(java.lang.reflect.Method)[pri:0, instance:pages.PeopleTest.PersonTestNGTest@34123d65]" started-at="2024-04-22T21:25:13 MSK" name="name" finished-at="2024-04-22T21:25:13 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.PeopleTest.PersonTestNGTest.testPersonAgeTestNG()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+      </class> <!-- pages.PeopleTest.PersonTestNGTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

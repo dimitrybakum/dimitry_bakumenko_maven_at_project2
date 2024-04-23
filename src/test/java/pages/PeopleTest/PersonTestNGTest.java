@@ -1,4 +1,4 @@
-package PeopleTest;
+package pages.PeopleTest;
 
 import People.Person;
 import org.testng.annotations.*;
