@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 23 18:49:27 MSK 2024</td>
+<td>Started on:</td><td>Wed Apr 24 17:21:46 MSK 2024</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8496 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8623 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.testNGtests.BookingParisSearchTests.BookingParisSearch()'><b>BookingParisSearch</b><br>Test class: tests.testNGtests.BookingParisSearchTests</td>
+<td title='tests.testng.tests.BookingParisSearchTests.BookingParisSearch()'><b>BookingParisSearch</b><br>Test class: tests.testng.tests.BookingParisSearchTests</td>
 <td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=123.0.6312.124)
+  (Session info: chrome=124.0.6367.79)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d0194b7f4ce72098104c41a5e3bc25a0, isElementSelected {id=f.59045C1B5B8C691A835D0C1169361CDD.d.A0F551BC47CEC8758151D8F8D136BD54.e.7602}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52182/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (d0194b7f4ce72098104c41a5e3bc25a0)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
-Session ID: d0194b7f4ce72098104c41a5e3bc25a0
+Command: [f12649c63dcc113631e5979fe5e3de3e, clickElement {id=f.0FDE42C0140B3D47A720B527C7DBF74B.d.9BFCD2B070E395DB4FEE0BDCAB2784E4.e.8185}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54195/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f12649c63dcc113631e5979fe5e3de3e)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
+Session ID: f12649c63dcc113631e5979fe5e3de3e
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -95,25 +95,22 @@ Session ID: d0194b7f4ce72098104c41a5e3bc25a0
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$26.apply(ExpectedConditions.java:752)
-	at org.openqa.selenium.support.ui.ExpectedConditions$26.apply(ExpectedConditions.java:749)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at pages.booking.BookingSearchResultsXPath.selectRating6Checkbox(BookingSearchResultsXPath.java:81)
-	at tests.testNGtests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:32)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.booking.BookingSearchResultsXPath.selectRating6Checkbox(BookingSearchResultsXPath.java:39)
+	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1907241392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1907241392'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=123.0.6312.124)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2086068243", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2086068243'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=124.0.6367.79)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d0194b7f4ce72098104c41a5e3bc25a0, isElementSelected {id=f.59045C1B5B8C691A835D0C1169361CDD.d.A0F551BC47CEC8758151D8F8D136BD54.e.7602}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.105 (399174dbe6e..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52182/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (d0194b7f4ce72098104c41a5e3bc25a0)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
-Session ID: d0194b7f4ce72098104c41a5e3bc25a0
+Command: [f12649c63dcc113631e5979fe5e3de3e, clickElement {id=f.0FDE42C0140B3D47A720B527C7DBF74B.d.9BFCD2B070E395DB4FEE0BDCAB2784E4.e.8185}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54195/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f12649c63dcc113631e5979fe5e3de3e)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
+Session ID: f12649c63dcc113631e5979fe5e3de3e
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -125,12 +122,9 @@ Session ID: d0194b7f4ce72098104c41a5e3bc25a0
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$26.apply(ExpectedConditions.java:752)
-	at org.openqa.selenium.support.ui.ExpectedConditions$26.apply(ExpectedConditions.java:749)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at pages.booking.BookingSearchResultsXPath.selectRating6Checkbox(BookingSearchResultsXPath.java:81)
-	at tests.testNGtests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:32)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.booking.BookingSearchResultsXPath.selectRating6Checkbox(BookingSearchResultsXPath.java:39)
+	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:32)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -156,8 +150,8 @@ Session ID: d0194b7f4ce72098104c41a5e3bc25a0
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
 </pre></div></td>
-<td>7</td>
-<td>tests.testNGtests.BookingParisSearchTests@5ccddd20</td></tr>
+<td>8</td>
+<td>tests.testng.tests.BookingParisSearchTests@5ccddd20</td></tr>
 </table><p>
 </body>
 </html>

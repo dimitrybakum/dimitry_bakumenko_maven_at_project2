@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite BookingTestNG]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="BookingParisSearch(failed)">
     <classes>
-      <class name="tests.testNGtests.BookingParisSearchTests">
+      <class name="tests.testng.tests.BookingParisSearchTests">
         <methods>
           <include name="BookingParisSearch"/>
           <include name="DriverInit"/>
           <include name="closeDriver"/>
         </methods>
-      </class> <!-- tests.testNGtests.BookingParisSearchTests -->
+      </class> <!-- tests.testng.tests.BookingParisSearchTests -->
     </classes>
   </test> <!-- BookingParisSearch(failed) -->
 </suite> <!-- Failed suite [Suite BookingTestNG] -->

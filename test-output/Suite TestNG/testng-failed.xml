@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite TestNG]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="BookingParisSearch(failed)">
     <classes>
-      <class name="tests.testNGtests.BookingParisSearchTests">
+      <class name="tests.testng.tests.BookingParisSearchTests">
         <methods>
           <include name="myBookingParisCheckRatingXPath"/>
         </methods>
-      </class> <!-- tests.testNGtests.BookingParisSearchTests -->
+      </class> <!-- tests.testng.tests.BookingParisSearchTests -->
     </classes>
   </test> <!-- BookingParisSearch(failed) -->
 </suite> <!-- Failed suite [Suite TestNG] -->

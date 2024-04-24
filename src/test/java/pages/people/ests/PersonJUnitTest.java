@@ -1,7 +1,7 @@
-package pages.PeopleTest;
+package pages.people.ests;
 import org.junit.Rule;
 import org.junit.Test;
-import People.Person;
+import people.Person;
 import org.junit.rules.TestName;
 
 import static org.junit.Assert.assertEquals;

@@ -1,22 +1,24 @@
 package tests;
 
-import driver.DriverInit;
+import driver.Driver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-import java.time.Duration;
-
 public class BaseTest {
 
+    //ToDo mby remove at all @BeforeTest
+    //ToDo packageNamings to lowercase noCamalCase
+    //ToDO test data should be tettled in tests -> method(testData) 1:42:35 19_day video
     @BeforeTest
     public void DriverInit() {
-        DriverInit.driver = DriverInit.getWebDriver();
-        DriverInit.driver.manage().window().maximize();
-        DriverInit.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        //Driver.getWebDriver();
+        //Driver.driver.manage().window().maximize();
+        //Driver.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     @AfterTest
     public void closeDriver() {
-        DriverInit.driver.quit();
+        Driver.getWebDriver().quit();
+        Driver.driverDestroy();
     }
 }

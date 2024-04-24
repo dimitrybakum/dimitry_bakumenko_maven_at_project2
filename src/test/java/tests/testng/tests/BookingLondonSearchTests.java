@@ -1,5 +1,5 @@
 
-package tests.testNGtests;
+package tests.testng.tests;
 
 import org.testng.annotations.Test;
 import pages.booking.BookingHomeXPath;

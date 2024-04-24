@@ -1,7 +1,7 @@
 package pages.w3c;
 
 import dev.failsafe.internal.util.Assert;
-import driver.DriverInit;
+import driver.Driver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,7 +17,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class W3cSchoolsTests {
-    WebDriver driver = DriverInit.getWebDriver();
+    WebDriver driver = Driver.getWebDriver();
 
     @Before
     public void setUp() {

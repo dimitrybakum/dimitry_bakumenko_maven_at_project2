@@ -1,4 +1,4 @@
-package Numbers;
+package numbers;
 
 public class Numbers {
     public static void main(String[] args) {

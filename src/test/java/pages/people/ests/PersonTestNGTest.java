@@ -1,6 +1,6 @@
-package pages.PeopleTest;
+package pages.people.ests;
 
-import People.Person;
+import people.Person;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;

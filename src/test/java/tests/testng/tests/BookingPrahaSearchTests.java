@@ -1,5 +1,5 @@
 
-package tests.testNGtests;
+package tests.testng.tests;
 
 import org.testng.annotations.Test;
 import pages.booking.BookingHomeXPath;
@@ -14,8 +14,6 @@ public class BookingPrahaSearchTests extends BaseTest {
     public final Waiters waiters = new Waiters();
     @Test
     public void BookingPrahaSearch() {
-
-
         waiters.waitForPageLoaded();
         bookingHomePage.getBookingStartPage();
         bookingHomePage.closeRegistrationAlert();

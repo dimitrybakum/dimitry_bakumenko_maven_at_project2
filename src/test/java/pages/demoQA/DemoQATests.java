@@ -1,6 +1,6 @@
 package pages.demoQA;
 
-import driver.DriverInit;
+import driver.Driver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 public class DemoQATests {
 
-    WebDriver driver = DriverInit.getWebDriver();
+    WebDriver driver = Driver.getWebDriver();
 
     @Before
     public void setUp() {
