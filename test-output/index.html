@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,6 +104,16 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite_BookingTestNG" title="tests.testng.tests.BookingParisSearchTests" class="method navigator-link" hash-for-method="BookingParisSearch">BookingParisSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_BookingTestNG" title="tests.testng.tests.BookingPrahaSearchTests" class="method navigator-link" hash-for-method="BookingPrahaSearch">BookingPrahaSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_BookingTestNG" title="tests.testng.tests.BookingTooltipTests" class="method navigator-link" hash-for-method="BookingTooltips">BookingTooltips</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite_BookingTestNG -->
@@ -118,16 +128,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite_BookingTestNG" title="tests.testng.tests.BookingLondonSearchTests" class="method navigator-link" hash-for-method="BookingLondonSearch">BookingLondonSearch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite_BookingTestNG" title="tests.testng.tests.BookingPrahaSearchTests" class="method navigator-link" hash-for-method="BookingPrahaSearch">BookingPrahaSearch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite_BookingTestNG" title="tests.testng.tests.BookingTooltipTests" class="method navigator-link" hash-for-method="BookingTooltips">BookingTooltips</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite_BookingTestNG -->
@@ -145,6 +145,47 @@
           <div class="suite-Suite_BookingTestNG-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">tests.testng.tests.BookingPrahaSearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookingPrahaSearch">
+                  </a> <!-- BookingPrahaSearch -->
+                  <span class="method-name">BookingPrahaSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.79)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09eede5e9321d8c21e486b565802921e, findElement {using=xpath, value=//button[@aria-label=&apos;Скрыть меню входа в аккаунт.&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52844}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52844/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09eede5e9321d8c21e486b565802921e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.booking.BookingHomeXPath.closeRegistrationAlert(BookingHomeXPath.java:41)
+	at tests.testng.tests.BookingPrahaSearchTests.BookingPrahaSearch(BookingPrahaSearchTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_BookingTestNG-class-failed -->
+          <div class="suite-Suite_BookingTestNG-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">tests.testng.tests.BookingParisSearchTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -153,20 +194,38 @@
                   <a name="BookingParisSearch">
                   </a> <!-- BookingParisSearch -->
                   <span class="method-name">BookingParisSearch</span>
-                  <div class="stack-trace">java.lang.AssertionError: Оценка 6,1 expected [Оценка 6,3] but found [Rating of the first sorted hotel is differ than expected]
-	at pages.booking.BookingSearchResultsXPath.checkOutFinalRating(BookingSearchResultsXPath.java:61)
-	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:37)
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3df4fba815af19e01bb84a7b68f2f97, clickElement {id=f.F7A5697FE28B9409ACA43387E6ABA96A.d.E6E393707592D2737F439EF5E493DDD1.e.7336}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52695/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df4fba815af19e01bb84a7b68f2f97)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
+Session ID: b3df4fba815af19e01bb84a7b68f2f97
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at utils.Clicker.click(Clicker.java:9)
+	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
-... Removed 27 stack frames
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite_BookingTestNG-class-failed -->
-          <div class="suite-Suite_BookingTestNG-class-passed">
+          <div class="suite-Suite_BookingTestNG-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">tests.testng.tests.BookingTooltipTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -175,10 +234,39 @@
                   <a name="BookingTooltips">
                   </a> <!-- BookingTooltips -->
                   <span class="method-name">BookingTooltips</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for utils.Waiters$$Lambda/0x00000216d7227480@577f9109 (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utils.Waiters.waitForPageLoaded(Waiters.java:25)
+	at tests.testng.tests.BookingTooltipTests.BookingTooltips(BookingTooltipTests.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.79)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a59b16de2882965cd6cd69475802d85, executeScript {script=return document.readyState, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52861/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a59b16de2882965cd6cd69475802d85
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463)
+	at utils.Waiters.lambda$waitForPageLoaded$0(Waiters.java:25)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 26 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite_BookingTestNG-class-passed -->
+          </div> <!-- suite-Suite_BookingTestNG-class-failed -->
           <div class="suite-Suite_BookingTestNG-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -190,21 +278,6 @@
                   <a name="BookingLondonSearch">
                   </a> <!-- BookingLondonSearch -->
                   <span class="method-name">BookingLondonSearch</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite_BookingTestNG-class-passed -->
-          <div class="suite-Suite_BookingTestNG-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.testng.tests.BookingPrahaSearchTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BookingPrahaSearch">
-                  </a> <!-- BookingPrahaSearch -->
-                  <span class="method-name">BookingPrahaSearch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -287,26 +360,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'BookingPrahaSearch')
-data.setCell(0, 2, 'tests.testng.tests.BookingPrahaSearchTests')
-data.setCell(0, 3, 12881);
+data.setCell(0, 1, 'BookingTooltips')
+data.setCell(0, 2, 'tests.testng.tests.BookingTooltipTests')
+data.setCell(0, 3, 21349);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'BookingParisSearch')
 data.setCell(1, 2, 'tests.testng.tests.BookingParisSearchTests')
-data.setCell(1, 3, 12130);
+data.setCell(1, 3, 7879);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'BookingLondonSearch')
 data.setCell(2, 2, 'tests.testng.tests.BookingLondonSearchTests')
-data.setCell(2, 3, 7155);
+data.setCell(2, 3, 6764);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'BookingTooltips')
-data.setCell(3, 2, 'tests.testng.tests.BookingTooltipTests')
-data.setCell(3, 3, 4473);
+data.setCell(3, 1, 'BookingPrahaSearch')
+data.setCell(3, 2, 'tests.testng.tests.BookingPrahaSearchTests')
+data.setCell(3, 3, 1161);
 window.suiteTableData['Suite_BookingTestNG']= { tableData: data, tableDiv: 'times-div-Suite_BookingTestNG'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Suite_BookingTestNG">
               </div> <!-- times-div-Suite_BookingTestNG -->
             </div> <!-- times-div -->
@@ -341,56 +414,60 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">BookingParisSearch</span>
-                <span class="method-start">20 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">12153 ms</span>
+                <span class="method-start">7898 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.testng.tests.BookingLondonSearchTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">DriverInit</span>
-                <span class="method-start">12257 ms</span>
+                <span class="method-start">8096 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">BookingLondonSearch</span>
-                <span class="method-start">12257 ms</span>
+                <span class="method-start">8097 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">19413 ms</span>
+                <span class="method-start">14861 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.testng.tests.BookingPrahaSearchTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">DriverInit</span>
-                <span class="method-start">19544 ms</span>
+                <span class="method-start">14991 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">BookingPrahaSearch</span>
-                <span class="method-start">19545 ms</span>
+                <span class="method-start">14991 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">32426 ms</span>
+                <span class="method-start">16152 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.testng.tests.BookingTooltipTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">DriverInit</span>
-                <span class="method-start">32522 ms</span>
+                <span class="method-start">16251 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">BookingTooltips</span>
-                <span class="method-start">32523 ms</span>
+                <span class="method-start">16252 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">36996 ms</span>
+                <span class="method-start">37601 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

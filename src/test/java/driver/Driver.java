@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.Collections;
 import java.util.Optional;
 public class Driver {
-    //ToDo make it private -> public static WebDriver driver;
     private static WebDriver driver;
 
     protected static Config.Configs config =

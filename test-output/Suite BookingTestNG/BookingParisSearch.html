@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 24 17:21:46 MSK 2024</td>
+<td>Started on:</td><td>Thu Apr 25 01:29:15 MSK 2024</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8623 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8080 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -83,10 +83,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f12649c63dcc113631e5979fe5e3de3e, clickElement {id=f.0FDE42C0140B3D47A720B527C7DBF74B.d.9BFCD2B070E395DB4FEE0BDCAB2784E4.e.8185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54195/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f12649c63dcc113631e5979fe5e3de3e)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
-Session ID: f12649c63dcc113631e5979fe5e3de3e
+Command: [b3df4fba815af19e01bb84a7b68f2f97, clickElement {id=f.F7A5697FE28B9409ACA43387E6ABA96A.d.E6E393707592D2737F439EF5E493DDD1.e.7336}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52695/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df4fba815af19e01bb84a7b68f2f97)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
+Session ID: b3df4fba815af19e01bb84a7b68f2f97
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -96,21 +96,21 @@ Session ID: f12649c63dcc113631e5979fe5e3de3e
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pages.booking.BookingSearchResultsXPath.selectRating6Checkbox(BookingSearchResultsXPath.java:39)
-	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:32)
+	at utils.Clicker.click(Clicker.java:9)
+	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2086068243", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2086068243'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1292472219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1292472219'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
   (Session info: chrome=124.0.6367.79)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f12649c63dcc113631e5979fe5e3de3e, clickElement {id=f.0FDE42C0140B3D47A720B527C7DBF74B.d.9BFCD2B070E395DB4FEE0BDCAB2784E4.e.8185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54195/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f12649c63dcc113631e5979fe5e3de3e)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
-Session ID: f12649c63dcc113631e5979fe5e3de3e
+Command: [b3df4fba815af19e01bb84a7b68f2f97, clickElement {id=f.F7A5697FE28B9409ACA43387E6ABA96A.d.E6E393707592D2737F439EF5E493DDD1.e.7336}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52695/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df4fba815af19e01bb84a7b68f2f97)] -&gt; xpath: //div[@data-testid=&apos;filters-group-label-container&apos;]/div[contains(text(),&apos;Достаточно хорошо: 6+&apos;)]]
+Session ID: b3df4fba815af19e01bb84a7b68f2f97
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -123,8 +123,8 @@ Session ID: f12649c63dcc113631e5979fe5e3de3e
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pages.booking.BookingSearchResultsXPath.selectRating6Checkbox(BookingSearchResultsXPath.java:39)
-	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:32)
+	at utils.Clicker.click(Clicker.java:9)
+	at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -150,7 +150,7 @@ Session ID: f12649c63dcc113631e5979fe5e3de3e
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
 </pre></div></td>
-<td>8</td>
+<td>7</td>
 <td>tests.testng.tests.BookingParisSearchTests@5ccddd20</td></tr>
 </table><p>
 </body>

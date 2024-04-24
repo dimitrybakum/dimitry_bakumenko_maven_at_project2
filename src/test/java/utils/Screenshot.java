@@ -9,8 +9,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class Screenshot {
-    public void getScreenshot() throws IOException {
+    public void getScreenshot(String picName) throws IOException {
         File asfile = ((TakesScreenshot) Driver.getWebDriver()).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(asfile, new File("pic5.png"));
+        FileUtils.copyFile(asfile, new File(picName + ".png"));
     }
 }

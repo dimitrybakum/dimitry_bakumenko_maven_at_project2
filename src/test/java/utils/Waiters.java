@@ -19,9 +19,9 @@ public class Waiters {
         Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
         WebDriverWait wait = new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(25));
     }
-    public void waitForPageLoaded() {
+    public void waitForPageLoaded(int seconds) {
         Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
-        WebDriverWait wait = new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(seconds));
         wait.until(webDriver -> "complete".equals(((JavascriptExecutor) webDriver).executeScript("return document.readyState")));
         Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
@@ -31,8 +31,8 @@ public class Waiters {
                 .ignoring(StaleElementReferenceException.class)
                 .until(webDriver -> Driver.getWebDriver().findElement(By.xpath(string)));
     }
-    public void waitForNewTab() {
-        new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(10))
+    public void waitForNewTab(int seconds) {
+        new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(seconds))
                 .until(ExpectedConditions.numberOfWindowsToBe(2));
         ArrayList<String> tabs = new ArrayList<>(Driver.getWebDriver().getWindowHandles());
         Driver.getWebDriver().switchTo().window(tabs.get(tabs.size() - 1));

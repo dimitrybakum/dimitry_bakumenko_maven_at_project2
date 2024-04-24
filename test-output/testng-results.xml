@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T17:20:39 MSK" name="Suite BookingTestNG" finished-at="2024-04-24T17:21:16 MSK" duration-ms="37122">
+  <suite started-at="2024-04-25T01:29:15 MSK" name="Suite BookingTestNG" finished-at="2024-04-25T01:29:53 MSK" duration-ms="37667">
     <groups>
     </groups>
-    <test started-at="2024-04-24T17:20:39 MSK" name="BookingParisSearch" finished-at="2024-04-24T17:20:51 MSK" duration-ms="12241">
+    <test started-at="2024-04-25T01:29:15 MSK" name="BookingParisSearch" finished-at="2024-04-25T01:29:23 MSK" duration-ms="8080">
       <class name="tests.testng.tests.BookingParisSearchTests">
-        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingParisSearchTests@5ccddd20]" started-at="2024-04-24T17:20:39 MSK" name="DriverInit" finished-at="2024-04-24T17:20:39 MSK" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingParisSearchTests@5ccddd20]" started-at="2024-04-25T01:29:15 MSK" name="DriverInit" finished-at="2024-04-25T01:29:15 MSK" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverInit -->
-        <test-method signature="BookingParisSearch()[pri:0, instance:tests.testng.tests.BookingParisSearchTests@5ccddd20]" started-at="2024-04-24T17:20:39 MSK" name="BookingParisSearch" finished-at="2024-04-24T17:20:51 MSK" duration-ms="12130" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="BookingParisSearch()[pri:0, instance:tests.testng.tests.BookingParisSearchTests@5ccddd20]" started-at="2024-04-25T01:29:15 MSK" name="BookingParisSearch" finished-at="2024-04-25T01:29:23 MSK" duration-ms="7879" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Оценка 6,1 expected [Оценка 6,3] but found [Rating of the first sorted hotel is differ than expected]]]>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3df4fba815af19e01bb84a7b68f2f97, clickElement {id=f.F7A5697FE28B9409ACA43387E6ABA96A.d.E6E393707592D2737F439EF5E493DDD1.e.7336}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52695/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df4fba815af19e01bb84a7b68f2f97)] -> xpath: //div[@data-testid='filters-group-label-container']/div[contains(text(),'Достаточно хорошо: 6+')]]
+Session ID: b3df4fba815af19e01bb84a7b68f2f97]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Оценка 6,1 expected [Оценка 6,3] but found [Rating of the first sorted hotel is differ than expected]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at pages.booking.BookingSearchResultsXPath.checkOutFinalRating(BookingSearchResultsXPath.java:61)
-at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:37)
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3df4fba815af19e01bb84a7b68f2f97, clickElement {id=f.F7A5697FE28B9409ACA43387E6ABA96A.d.E6E393707592D2737F439EF5E493DDD1.e.7336}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52695/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b3df4fba815af19e01bb84a7b68f2f97)] -> xpath: //div[@data-testid='filters-group-label-container']/div[contains(text(),'Достаточно хорошо: 6+')]]
+Session ID: b3df4fba815af19e01bb84a7b68f2f97
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at utils.Clicker.click(Clicker.java:9)
+at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:35)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -51,59 +76,184 @@ at org.testng.TestNG.run(TestNG.java:1101)
 at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookingParisSearch -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingParisSearchTests@5ccddd20]" started-at="2024-04-24T17:20:51 MSK" name="closeDriver" finished-at="2024-04-24T17:20:51 MSK" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingParisSearchTests@5ccddd20]" started-at="2024-04-25T01:29:23 MSK" name="closeDriver" finished-at="2024-04-25T01:29:23 MSK" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.testng.tests.BookingParisSearchTests -->
     </test> <!-- BookingParisSearch -->
-    <test started-at="2024-04-24T17:20:51 MSK" name="BookingLondonSearch" finished-at="2024-04-24T17:20:59 MSK" duration-ms="7285">
+    <test started-at="2024-04-25T01:29:23 MSK" name="BookingLondonSearch" finished-at="2024-04-25T01:29:30 MSK" duration-ms="6892">
       <class name="tests.testng.tests.BookingLondonSearchTests">
-        <test-method signature="BookingLondonSearch()[pri:0, instance:tests.testng.tests.BookingLondonSearchTests@29626d54]" started-at="2024-04-24T17:20:51 MSK" name="BookingLondonSearch" finished-at="2024-04-24T17:20:59 MSK" duration-ms="7155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BookingLondonSearch -->
-        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingLondonSearchTests@29626d54]" started-at="2024-04-24T17:20:51 MSK" name="DriverInit" finished-at="2024-04-24T17:20:51 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingLondonSearchTests@5a63f509]" started-at="2024-04-25T01:29:23 MSK" name="DriverInit" finished-at="2024-04-25T01:29:23 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverInit -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingLondonSearchTests@29626d54]" started-at="2024-04-24T17:20:59 MSK" name="closeDriver" finished-at="2024-04-24T17:20:59 MSK" duration-ms="128" status="PASS">
+        <test-method signature="BookingLondonSearch()[pri:0, instance:tests.testng.tests.BookingLondonSearchTests@5a63f509]" started-at="2024-04-25T01:29:23 MSK" name="BookingLondonSearch" finished-at="2024-04-25T01:29:30 MSK" duration-ms="6764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingLondonSearch -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingLondonSearchTests@5a63f509]" started-at="2024-04-25T01:29:30 MSK" name="closeDriver" finished-at="2024-04-25T01:29:30 MSK" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.testng.tests.BookingLondonSearchTests -->
     </test> <!-- BookingLondonSearch -->
-    <test started-at="2024-04-24T17:20:59 MSK" name="BookingPrahaSearch" finished-at="2024-04-24T17:21:12 MSK" duration-ms="12975">
+    <test started-at="2024-04-25T01:29:30 MSK" name="BookingPrahaSearch" finished-at="2024-04-25T01:29:31 MSK" duration-ms="1253">
       <class name="tests.testng.tests.BookingPrahaSearchTests">
-        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingPrahaSearchTests@e056f20]" started-at="2024-04-24T17:20:59 MSK" name="DriverInit" finished-at="2024-04-24T17:20:59 MSK" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DriverInit -->
-        <test-method signature="BookingPrahaSearch()[pri:0, instance:tests.testng.tests.BookingPrahaSearchTests@e056f20]" started-at="2024-04-24T17:20:59 MSK" name="BookingPrahaSearch" finished-at="2024-04-24T17:21:12 MSK" duration-ms="12881" status="PASS">
+        <test-method signature="BookingPrahaSearch()[pri:0, instance:tests.testng.tests.BookingPrahaSearchTests@4b0b0854]" started-at="2024-04-25T01:29:30 MSK" name="BookingPrahaSearch" finished-at="2024-04-25T01:29:31 MSK" duration-ms="1161" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.79)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09eede5e9321d8c21e486b565802921e, findElement {using=xpath, value=//button[@aria-label='Скрыть меню входа в аккаунт.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52844}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52844/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09eede5e9321d8c21e486b565802921e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.79)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09eede5e9321d8c21e486b565802921e, findElement {using=xpath, value=//button[@aria-label='Скрыть меню входа в аккаунт.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52844}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52844/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09eede5e9321d8c21e486b565802921e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at pages.booking.BookingHomeXPath.closeRegistrationAlert(BookingHomeXPath.java:41)
+at tests.testng.tests.BookingPrahaSearchTests.BookingPrahaSearch(BookingPrahaSearchTests.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookingPrahaSearch -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingPrahaSearchTests@e056f20]" started-at="2024-04-24T17:21:12 MSK" name="closeDriver" finished-at="2024-04-24T17:21:12 MSK" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingPrahaSearchTests@4b0b0854]" started-at="2024-04-25T01:29:30 MSK" name="DriverInit" finished-at="2024-04-25T01:29:30 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInit -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingPrahaSearchTests@4b0b0854]" started-at="2024-04-25T01:29:31 MSK" name="closeDriver" finished-at="2024-04-25T01:29:31 MSK" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.testng.tests.BookingPrahaSearchTests -->
     </test> <!-- BookingPrahaSearch -->
-    <test started-at="2024-04-24T17:21:12 MSK" name="BookingTooltips" finished-at="2024-04-24T17:21:16 MSK" duration-ms="4596">
+    <test started-at="2024-04-25T01:29:31 MSK" name="BookingTooltips" finished-at="2024-04-25T01:29:53 MSK" duration-ms="21411">
       <class name="tests.testng.tests.BookingTooltipTests">
-        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingTooltipTests@2667f029]" started-at="2024-04-24T17:21:12 MSK" name="DriverInit" finished-at="2024-04-24T17:21:12 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="DriverInit()[pri:0, instance:tests.testng.tests.BookingTooltipTests@57c758ac]" started-at="2024-04-25T01:29:31 MSK" name="DriverInit" finished-at="2024-04-25T01:29:31 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverInit -->
-        <test-method signature="BookingTooltips()[pri:0, instance:tests.testng.tests.BookingTooltipTests@2667f029]" started-at="2024-04-24T17:21:12 MSK" name="BookingTooltips" finished-at="2024-04-24T17:21:16 MSK" duration-ms="4473" status="PASS">
+        <test-method signature="BookingTooltips()[pri:0, instance:tests.testng.tests.BookingTooltipTests@57c758ac]" started-at="2024-04-25T01:29:31 MSK" name="BookingTooltips" finished-at="2024-04-25T01:29:53 MSK" duration-ms="21349" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for utils.Waiters$$Lambda/0x00000216d7227480@577f9109 (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for utils.Waiters$$Lambda/0x00000216d7227480@577f9109 (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at utils.Waiters.waitForPageLoaded(Waiters.java:25)
+at tests.testng.tests.BookingTooltipTests.BookingTooltips(BookingTooltipTests.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at runners.BookingTestNGRunner.main(BookingTestNGRunner.java:16)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.79)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a59b16de2882965cd6cd69475802d85, executeScript {script=return document.readyState, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52861/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a59b16de2882965cd6cd69475802d85
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463)
+at utils.Waiters.lambda$waitForPageLoaded$0(Waiters.java:25)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookingTooltips -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingTooltipTests@2667f029]" started-at="2024-04-24T17:21:16 MSK" name="closeDriver" finished-at="2024-04-24T17:21:16 MSK" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.testng.tests.BookingTooltipTests@57c758ac]" started-at="2024-04-25T01:29:53 MSK" name="closeDriver" finished-at="2024-04-25T01:29:53 MSK" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

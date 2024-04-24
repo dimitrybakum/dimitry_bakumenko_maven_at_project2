@@ -12,4 +12,26 @@
       </class> <!-- tests.testng.tests.BookingParisSearchTests -->
     </classes>
   </test> <!-- BookingParisSearch(failed) -->
+  <test thread-count="5" name="BookingPrahaSearch(failed)">
+    <classes>
+      <class name="tests.testng.tests.BookingPrahaSearchTests">
+        <methods>
+          <include name="DriverInit"/>
+          <include name="BookingPrahaSearch"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- tests.testng.tests.BookingPrahaSearchTests -->
+    </classes>
+  </test> <!-- BookingPrahaSearch(failed) -->
+  <test thread-count="5" name="BookingTooltips(failed)">
+    <classes>
+      <class name="tests.testng.tests.BookingTooltipTests">
+        <methods>
+          <include name="DriverInit"/>
+          <include name="BookingTooltips"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- tests.testng.tests.BookingTooltipTests -->
+    </classes>
+  </test> <!-- BookingTooltips(failed) -->
 </suite> <!-- Failed suite [Suite BookingTestNG] -->
