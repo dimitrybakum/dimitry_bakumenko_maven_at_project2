@@ -1,21 +1,19 @@
-
 package tests.testng.tests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.booking.BookingHomeXPath;
+import page.objects.booking.BookingHomePageXpath;
 import tests.BaseTest;
 import utils.Clicker;
 import utils.Waiters;
 
 import static driver.Driver.getWebDriver;
-import static pages.booking.BookingHomeXPath.*;
-import static pages.booking.BookingSearchResultsXPath.ratingContainerXpath;
-import static pages.booking.BookingSearchResultsXPath.ratingForCompareXpath;
+import static page.objects.booking.BookingHomePageXpath.*;
+import static page.objects.booking.BookingSearchPageXpath.*;
 
 public class BookingPrahaSearchTests extends BaseTest {
-    public final BookingHomeXPath bookingHomePage = new BookingHomeXPath();
+    public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final Clicker clicker = new Clicker();
     public final Waiters waiters = new Waiters();
     @Test
@@ -23,14 +21,14 @@ public class BookingPrahaSearchTests extends BaseTest {
         waiters.waitForPageLoaded(20);
         bookingHomePage.getPage(BOOKING_HOME_PAGE);
         bookingHomePage.closeRegistrationAlert(REGISTRATION_ALERT_XPATH);
-        bookingHomePage.getLocationSearchField("Прага");
+        bookingHomePage.destinationSearch("Прага");
         bookingHomePage.locationSelection(prahaSearchFirstResultXpath);
         clicker.click(closeDatePickerXpath);
         clicker.click(SUBMIT_SEARCH_BUTTON_XPATH);
         waiters.waitForPageLoaded(20);
-        waiters.waitForElement(ratingContainerXpath);
-        clicker.click(rating9CheckboxXpath);
-        bookingHomePage.waitForRatingApplied(ratingAppliedXpath);
+        waiters.waitForElement(RATING_CONTAINER_XPATH);
+        bookingHomePage.selectRating(9);
+        waiters.waitForElement(RATING_APPLIED_XPATH);
         clicker.click(getTopSearchResultXpath);
         waiters.waitForNewTab(5);
         waiters.waitForPageLoaded(20);

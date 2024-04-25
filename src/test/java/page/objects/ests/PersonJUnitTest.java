@@ -1,4 +1,4 @@
-package pages.people.ests;
+package page.objects.ests;
 import org.junit.Rule;
 import org.junit.Test;
 import people.Person;

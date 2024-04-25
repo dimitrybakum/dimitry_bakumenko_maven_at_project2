@@ -3,10 +3,10 @@
 <testsuite hostname="Zephyrus" failures="0" tests="1" name="tests.testng.tests.BookingPrahaSearchTests" time="26.930" errors="1" timestamp="2024-04-23T20:19:55 MSK" skipped="0">
   <testcase classname="tests.testng.tests.BookingPrahaSearchTests" name="BookingPrahaSearch" time="26.930">
     <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class=&#039;a1d43fa1ac&#039;]/div/label/input[@checked] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">
-      <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='a1d43fa1ac']/div/label/input[@checked] (tried for 20 second(s) with 500 milliseconds interval)
+        <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class='a1d43fa1ac']/div/label/input[@checked] (tried for 20 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at pages.booking.BookingHomeXPath.waitForRatingApplied(BookingHomeXPath.java:135)
+at page.booking.BookingHomeXPath.waitForRatingApplied(BookingHomeXPath.java:135)
 at tests.testng.tests.BookingPrahaSearchTests.BookingPrahaSearch(BookingPrahaSearchTests.java:29)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)

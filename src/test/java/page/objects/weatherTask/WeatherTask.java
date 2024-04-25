@@ -1,4 +1,4 @@
-package pages.weatherTask;
+package page.objects.weatherTask;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;

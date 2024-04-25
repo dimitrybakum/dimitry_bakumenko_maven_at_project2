@@ -1,4 +1,4 @@
-package pages.people.ests;
+package page.objects.ests;
 
 import people.Person;
 import org.testng.annotations.*;

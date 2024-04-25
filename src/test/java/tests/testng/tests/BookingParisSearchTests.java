@@ -3,18 +3,17 @@ package tests.testng.tests;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.booking.BookingHomeXPath;
+import page.objects.booking.BookingHomePageXpath;
 import tests.BaseTest;
 import utils.Clicker;
 import utils.Waiters;
 
 import static driver.Driver.getWebDriver;
-import static pages.booking.BookingHomeXPath.*;
-import static pages.booking.BookingHomeXPath.ratingToCompareXpath;
-import static pages.booking.BookingSearchResultsXPath.*;
+import static page.objects.booking.BookingHomePageXpath.*;
+import static page.objects.booking.BookingSearchPageXpath.*;
 
 public class BookingParisSearchTests extends BaseTest {
-    public final BookingHomeXPath bookingHomePage = new BookingHomeXPath();
+    public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final Clicker clicker = new Clicker();
     public final Waiters waiters = new Waiters();
     @Test
@@ -22,23 +21,19 @@ public class BookingParisSearchTests extends BaseTest {
         waiters.waitForPageLoaded(20);
         bookingHomePage.getPage(BOOKING_HOME_PAGE);
         bookingHomePage.closeRegistrationAlert(REGISTRATION_ALERT_XPATH);
-        bookingHomePage.getLocationSearchField("Париж");
+        bookingHomePage.destinationSearch("Париж");
         bookingHomePage.locationSelection(parisSearchFirstResultXpath);
         bookingHomePage.datesFromTo(3, 10);
-        clicker.click(occurancyXpath);
-        clicker.click(addAdultXpath);
-        clicker.click(addAdultXpath);
-        clicker.click(addRoomXpath);
-        clicker.click(submitOcupancyXpath);
+        bookingHomePage.bookPersonsRooms(5,5);
         clicker.click(SUBMIT_SEARCH_BUTTON_XPATH);
         waiters.waitForPageLoaded(20);
-        waiters.waitForElement(ratingContainerXpath);
-        clicker.click(selectRating_6_CheckboxXpath);
-        waiters.waitForElement(ratingAppliedFilterAppearsXpath);
+        waiters.waitForElement(RATING_CONTAINER_XPATH);
+        bookingHomePage.selectRating(6);
+        waiters.waitForElement(RATING_APPLIED_XPATH);
         clicker.click(expandSortingFilterXpath);
         clicker.click(selectFilterXpath);
         waiters.waitForPageLoaded(5);
-        Assert.assertEquals(getWebDriver().findElement(By.xpath(ratingToCompareXpath)).getText(), "Оценка 6,0", "Rating of the first sorted hotel is differ than expected");
+        Assert.assertEquals(getWebDriver().findElement(By.xpath(RATING_TO_COMPARE_XPATH)).getText(), "Оценка 6,0", "Rating of the first sorted hotel is differ than expected");
         System.out.println("BookingParisSearch test passed");
     }
 }

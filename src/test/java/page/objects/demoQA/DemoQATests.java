@@ -1,4 +1,4 @@
-package pages.demoQA;
+package page.objects.demoQA;
 
 import driver.Driver;
 import org.junit.After;

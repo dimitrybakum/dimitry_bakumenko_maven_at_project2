@@ -1,4 +1,4 @@
-package pages.w3c;
+package page.objects.w3c;
 
 import dev.failsafe.internal.util.Assert;
 import driver.Driver;

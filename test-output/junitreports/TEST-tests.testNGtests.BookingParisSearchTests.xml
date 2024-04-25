@@ -3,13 +3,13 @@
 <testsuite hostname="Zephyrus" failures="1" tests="1" name="tests.testng.tests.BookingParisSearchTests" time="13.158" errors="0" timestamp="2024-04-23T20:19:55 MSK" skipped="0">
   <testcase classname="tests.testng.tests.BookingParisSearchTests" name="BookingParisSearch" time="13.158">
     <failure message="Оценка 9,0 expected [Оценка 6,3] but found [Rating of the first sorted hotel is differ than expected]" type="java.lang.AssertionError">
-      <![CDATA[java.lang.AssertionError: Оценка 9,0 expected [Оценка 6,3] but found [Rating of the first sorted hotel is differ than expected]
+        <![CDATA[java.lang.AssertionError: Оценка 9,0 expected [Оценка 6,3] but found [Rating of the first sorted hotel is differ than expected]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
-at pages.booking.BookingSearchResultsXPath.checkOutFinalRating(BookingSearchResultsXPath.java:101)
+at page.booking.BookingSearchResultsXPath.checkOutFinalRating(BookingSearchResultsXPath.java:101)
 at tests.testng.tests.BookingParisSearchTests.BookingParisSearch(BookingParisSearchTests.java:37)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)

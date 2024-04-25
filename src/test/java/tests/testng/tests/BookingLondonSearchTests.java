@@ -1,9 +1,8 @@
-
 package tests.testng.tests;
 
 import org.testng.annotations.Test;
-import pages.booking.BookingHomeXPath;
-import pages.booking.BookingSearchResultsXPath;
+import page.objects.booking.BookingHomePageXpath;
+import page.objects.booking.BookingSearchPageXpath;
 import tests.BaseTest;
 import utils.Clicker;
 import utils.Screenshot;
@@ -11,13 +10,12 @@ import utils.Waiters;
 
 import java.io.IOException;
 
-import static pages.booking.BookingHomeXPath.*;
-import static pages.booking.BookingSearchResultsXPath.getSearchResult_10_title_xpath;
-import static pages.booking.BookingSearchResultsXPath.searchResult_10_xpath;
+import static page.objects.booking.BookingHomePageXpath.*;
+import static page.objects.booking.BookingSearchPageXpath.*;
 
 public class BookingLondonSearchTests extends BaseTest {
-    public final BookingHomeXPath bookingHomePage = new BookingHomeXPath();
-    public final BookingSearchResultsXPath bookingSearchResultPage = new BookingSearchResultsXPath();
+    public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
+    public final BookingSearchPageXpath bookingSearchResultPage = new BookingSearchPageXpath();
     public final Waiters waiters = new Waiters();
     public final Screenshot screenshot = new Screenshot();
     public final Clicker clicker = new Clicker();
@@ -27,13 +25,13 @@ public class BookingLondonSearchTests extends BaseTest {
         waiters.waitForPageLoaded(20);
         bookingHomePage.getPage(BOOKING_HOME_PAGE);
         bookingHomePage.closeRegistrationAlert(REGISTRATION_ALERT_XPATH);
-        bookingHomePage.getLocationSearchField("Лондон");
+        bookingHomePage.destinationSearch("Лондон");
         bookingHomePage.locationSelection(londonSearchFirstResultXpath);
         clicker.click(SUBMIT_SEARCH_BUTTON_XPATH);
         waiters.waitForPageLoaded(20);
-        bookingSearchResultPage.scrollIntoView(searchResult_10_xpath);
-        bookingSearchResultPage.changeElementBgcToGreen(searchResult_10_xpath);
-        bookingSearchResultPage.changeElementTitleColorToRed(getSearchResult_10_title_xpath);
+        bookingSearchResultPage.scrollIntoView(SEARCH_RESULT_10_XPATH);
+        bookingSearchResultPage.changeElementBgcToGreen(SEARCH_RESULT_10_XPATH);
+        bookingSearchResultPage.changeElementTitleColorToRed(SearchResult10TitleXpath);
         screenshot.getScreenshot("myScreenshotName");
         System.out.println("BookingLondonSearch test passed");
     }

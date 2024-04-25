@@ -1,23 +1,17 @@
-package pages.booking;
+package page.objects.booking;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.time.LocalDate;
 
 import static driver.Driver.getWebDriver;
 
-public class BookingHomeXPath {
+public class BookingHomePageXpath {
     public final static String BOOKING_HOME_PAGE = "https://www.booking.com/";
     public final static String REGISTRATION_ALERT_XPATH = "//button[@aria-label='Скрыть меню входа в аккаунт.']";
     public final static String SUBMIT_SEARCH_BUTTON_XPATH = "//button[@type=\"submit\"]";
-    public static String rating9CheckboxXpath = "//*[@data-testid='filters-group']//div[@data-filters-item='review_score:review_score=90']//*[@type='checkbox']";
-    public static String ratingAppliedXpath = "//div[@class='a1d43fa1ac']/div/label/input[@checked]";
+    public final static String RATING_TO_COMPARE_XPATH = "//div[@data-testid='property-card'][1]//div[@data-testid='review-score']/div[1]/div";
     public static String londonSearchFirstResultXpath = "//div[text()='Большой Лондон, Великобритания']";
     public static String parisSearchFirstResultXpath = "//div[text()='Иль-де-Франс, Франция']";
     public static String prahaSearchFirstResultXpath = "//div[text()='Чехия']";
@@ -31,32 +25,36 @@ public class BookingHomeXPath {
     public static String currencyElementTooltipXpath = "//div[@class='a0ac0ffd76 eb4b382ac4 f38a56c611']//*[contains(text(),'Выберите валюту')]";
     public static String languageElementXpath = "//*[@data-testid='header-language-picker-trigger']";
     public static String languageElementTooltipXpath = "//div[@class='a0ac0ffd76 eb4b382ac4 f38a56c611']//*[contains(text(),'Выберите язык')]";
-
-    public static String ratingToCompareXpath = "//div[@data-testid='property-card'][1]//div[@data-testid='review-score']/div[1]/div";
+    public static String destinationSearchField = "//*[@id=':re:']";
     public void getPage(String url) {
-
         getWebDriver().get(url);
+    }
+
+    public void bookPersonsRooms(int peoples, int rooms) {
+        getWebDriver().findElement(By.xpath(occurancyXpath)).click();
+        for (int defaultAdultsQty = 2; defaultAdultsQty < peoples; defaultAdultsQty++) {
+            getWebDriver().findElement(By.xpath(addAdultXpath)).click();
+        }
+        for (int defaultRoomsQty = 1; defaultRoomsQty < rooms; defaultRoomsQty++) {
+            getWebDriver().findElement(By.xpath(addRoomXpath)).click();
+        }
+        getWebDriver().findElement(By.xpath(submitOcupancyXpath)).click();
     }
 
     public void closeRegistrationAlert(String string) {
         getWebDriver().findElement(By.xpath(string)).click();
     }
 
-    public void getLocationSearchField(String location) {
-        getWebDriver().findElement(By.xpath("//*[@id=':re:']")).sendKeys(location);
+    public void destinationSearch(String string) {
+        getWebDriver().findElement(By.xpath(destinationSearchField)).sendKeys(string);
     }
 
     public void locationSelection(String string) {
         getWebDriver().findElement(By.xpath(string)).click();
     }
 
-    public void waitForRatingApplied(String string) {
-        getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
-        new WebDriverWait(getWebDriver(), Duration.ofSeconds(20))
-                .ignoring(NoSuchElementException.class)
-                .ignoring(StaleElementReferenceException.class)
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath(string)));
-        getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    public void selectRating(int rating) {
+        getWebDriver().findElement(By.xpath(String.format("//*[@data-testid='filters-group']//div[@data-filters-item='review_score:review_score=%s0']//*[@type='checkbox']", rating))).click();
     }
 
     //ToDo Refactor datePicker. No selection for next month

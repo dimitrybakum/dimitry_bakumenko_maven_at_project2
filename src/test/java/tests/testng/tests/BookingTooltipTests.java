@@ -3,17 +3,17 @@ package tests.testng.tests;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.booking.BookingHomeXPath;
+import page.objects.booking.BookingHomePageXpath;
 import tests.BaseTest;
 import utils.Clicker;
 import utils.Hover;
 import utils.Waiters;
 
 import static driver.Driver.getWebDriver;
-import static pages.booking.BookingHomeXPath.*;
+import static page.objects.booking.BookingHomePageXpath.*;
 
 public class BookingTooltipTests extends BaseTest {
-    public final BookingHomeXPath bookingHomePage = new BookingHomeXPath();
+    public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final Clicker clicker = new Clicker();
     public final Waiters waiters = new Waiters();
     public final Hover hover = new Hover();

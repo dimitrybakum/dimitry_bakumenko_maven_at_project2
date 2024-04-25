@@ -1,19 +1,23 @@
-package pages.numbers.tests;
+package page.objects.tests;
 
 import numbers.Numbers;
-import org.testng.annotations.*;
-
-import java.lang.reflect.Method;
-
-import static org.testng.AssertJUnit.*;
-
-public class NumbersTestNGTests {
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TestName;
 
 
+import static org.junit.Assert.assertEquals;
+
+public class NumbersJUnitTests {
+
+    @Rule
+    public TestName name = new TestName();
     Numbers numbers = new Numbers();
 
     @Test
-    public void testNumberTestNG() {
+    public void testNumberJunit() {
+
+        System.out.printf("JUnit: %s test..%n", name.getMethodName());
         assertEquals("The age is not correct!", 98, numbers.getNumber(-1, 5));
         assertEquals("The age is not correct!", 48, numbers.getNumber(-1, 10));
         assertEquals("The age is not correct!", 53, numbers.getNumber(2, 2));
@@ -21,11 +25,5 @@ public class NumbersTestNGTests {
         assertEquals("The age is not correct!", 53, numbers.getNumber(2, -6));
         assertEquals("The age is not correct!", -50, numbers.getNumber(-100, -100));
         System.out.println("Passed");
-    }
-
-    @BeforeMethod
-    public void name(Method method) {
-        System.out.println("TestNG: " + method.getName() + " test..");
-
     }
 }
