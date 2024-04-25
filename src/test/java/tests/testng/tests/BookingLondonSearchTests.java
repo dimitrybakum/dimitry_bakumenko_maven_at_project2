@@ -32,7 +32,7 @@ public class BookingLondonSearchTests extends BaseTest {
         bookingSearchResultPage.scrollIntoView(SEARCH_RESULT_10_XPATH);
         bookingSearchResultPage.changeElementBgcToGreen(SEARCH_RESULT_10_XPATH);
         bookingSearchResultPage.changeElementTitleColorToRed(SearchResult10TitleXpath);
-        screenshot.getScreenshot("myScreenshotName");
+        screenshot.getScreenshot("myScreenshot_bugaga");
         System.out.println("BookingLondonSearch test passed");
     }
 }
