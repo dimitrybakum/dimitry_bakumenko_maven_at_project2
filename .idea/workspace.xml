@@ -5,8 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="846ec11d-652d-4569-aec8-8cab1ac0c1b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/myScreenshotName.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/BookingJUnitRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingLondonSearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingParisSearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingPrahaSearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingTooltipTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/ests/PersonJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/ests/PersonTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonTestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/tests/NumbersJUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersJUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/tests/NumbersTestNGTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersTestNGTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/w3c/W3cSchoolsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/w3school/W3SchoolsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/testng/tests/BookingLondonSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingLondonSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/testng/tests/BookingParisSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingParisSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/testng/tests/BookingPrahaSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingPrahaSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/testng/tests/BookingTooltipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingTooltipTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/Surefire suite/Surefire test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/Surefire suite/Surefire test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/Surefire suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-BookingHoverTaskTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-NumbersTest.NumbersJUnitTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-PeopleTest.PersonJUnitTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.NumbersTest.NumbersJUnitTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.PeopleTest.PersonJUnitTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.booking.BookingHoverTaskTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.booking.BookingLondonTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.booking.BookingParisCSSTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.booking.BookingParisTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.booking.BookingPrahaTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.demoQA.DemoQATests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/junitreports/TEST-pages.w3c.W3cSchoolsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/Surefire suite/Surefire test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/Surefire suite/Surefire test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/Surefire suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/junitreports/TEST-NumbersTest.NumbersTestNGTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/junitreports/TEST-PeopleTest.PersonTestNGTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/junitreports/TEST-pages.NumbersTest.NumbersTestNGTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/junitreports/TEST-pages.PeopleTest.PersonTestNGTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/junitreports/TEST-tests.BookingParisSearchTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +123,14 @@
     "Application.BookingPraha.executor": "Run",
     "Application.BookingScrollTest.executor": "Run",
     "Application.BookingTestNGRunner.executor": "Run",
+    "Application.Chrome.BookingTestNGRunner.executor": "Run",
     "Application.ClassWorkDay17.executor": "Run",
     "Application.DemoQA.executor": "Run",
     "Application.GoogleWeather.executor": "Run",
     "Application.HoverTask.executor": "Run",
     "Application.NavigationTask.executor": "Run",
     "Application.NumbersTest.executor": "Run",
+    "Application.TestConfig.executor": "Run",
     "Application.TestWebDriverClass.executor": "Run",
     "Application.W3cSchools.executor": "Run",
     "Application.WeatherTask.executor": "Run",
@@ -61,11 +140,16 @@
     "JUnit.BookingHoverTaskTest.checkToolTips.executor": "Run",
     "JUnit.BookingHoverTaskTest.executor": "Run",
     "JUnit.BookingHoverTaskTests.executor": "Run",
+    "JUnit.BookingJUnitRunner.executor": "Run",
+    "JUnit.BookingJUnitRunnerChrome.executor": "Run",
+    "JUnit.BookingJUnitRunnerEDGE.executor": "Run",
+    "JUnit.BookingLondonSearchTests.executor": "Run",
     "JUnit.BookingLondonTests.checkTooltips.executor": "Run",
     "JUnit.BookingLondonTests.executor": "Run",
     "JUnit.BookingLondonTests.testLondon.executor": "Run",
     "JUnit.BookingParisCSSTests.executor": "Run",
     "JUnit.BookingParisCSSTests.testParis.executor": "Run",
+    "JUnit.BookingParisSearchTests.executor": "Run",
     "JUnit.BookingParisTests.executor": "Run",
     "JUnit.BookingParisTests.testParis.executor": "Run",
     "JUnit.BookingPrahaTest.checkBookingMaxRatingXPath.executor": "Run",
@@ -73,6 +157,7 @@
     "JUnit.BookingPrahaTest.executor": "Run",
     "JUnit.BookingPrahaTests.checkPraha.executor": "Run",
     "JUnit.BookingPrahaTests.executor": "Run",
+    "JUnit.Chrome.BookingTooltipTest.executor": "Run",
     "JUnit.DemoQAJUnitRunner.executor": "Run",
     "JUnit.DemoQATests.dropDownsTest.executor": "Run",
     "JUnit.DemoQATests.executor": "Run",
@@ -80,6 +165,8 @@
     "JUnit.NumbersJUnit.testNumberJunit.executor": "Run",
     "JUnit.PersonTests.executor": "Run",
     "JUnit.W3cSchoolsTests.executor": "Run",
+    "Maven.Booking_TestNG_Chrome.executor": "Run",
+    "Maven.Booking_TestNG_EDGE.executor": "Debug",
     "Maven.UnitTestsDummy [clean].executor": "Run",
     "Maven.UnitTestsDummy [test].executor": "Run",
     "Maven.dimitry_bakumenko_maven_at_project2 [clean].executor": "Run",
@@ -98,24 +185,35 @@
     "TestNG.BookingTooltipTests.BookingTooltips (1).executor": "Run",
     "TestNG.BookingTooltipTests.BookingTooltips.executor": "Run",
     "TestNG.BookingTooltipTests.executor": "Debug",
+    "TestNG.Booking_TestNG_Chrome.executor": "Run",
     "TestNG.C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project/dimitry_bakumenko_maven_at_project2/testng.xml.executor": "Run",
     "TestNG.C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project2/testng.xml.executor": "Run",
     "TestNG.NumbersTestNG.executor": "Run",
     "TestNG.NumbersTestNG.testNumber.executor": "Run",
     "TestNG.PersonTestNGTest.testPersonAge.executor": "Run",
+    "TestNG.booking.testNG.chrome.suite.executor": "Run",
+    "TestNG.booking.testNG.edge.suite.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project2/src/test/java",
-    "last_opened_file_path": "C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project/dimitry_bakumenko_maven_at_project2",
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project2/src/test/java/tests/booking/tests/junit",
     "onboarding.tips.debug.path": "C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project/dimitry_bakumenko_maven_at_project2/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.testRunning"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2\src\test\java\tests\booking\tests\junit" />
       <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project\dimitry_bakumenko_maven_at_project2" />
       <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project\dimitry_bakumenko_maven_at_project2\src\test\java" />
       <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project\dimitry_bakumenko_maven_at_project2\src\main\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2" />
+      <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2\src\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Numbers" />
@@ -126,10 +224,19 @@
       <command value="+" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BookingLondonSearchTests">
-    <configuration name="BookingTestNGRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Chrome.BookingTestNGRunner">
+    <configuration name="Chrome.BookingTestNGRunner" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="runners.BookingTestNGRunner" />
       <module name="UnitTestsDummy" />
+      <option name="VM_PARAMETERS" value="-DCONFIG=CHROME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EDGE.BookingTestNGRunner" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="runners.BookingTestNGRunner" />
+      <module name="UnitTestsDummy" />
+      <option name="VM_PARAMETERS" value="-DCONFIG=EDGE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="runners.*" />
@@ -140,84 +247,191 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingLondonSearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Chrome.BookingJUnitRunner" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="UnitTestsDummy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.testng.tests.*" />
+          <option name="PATTERN" value="tests.booking.tests.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.testng.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.testng.tests.BookingLondonSearchTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.booking.tests.junit" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-DCONFIG=CHROME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chrome.BookingTooltipTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.booking.tests.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.booking.tests.junit" />
+      <option name="MAIN_CLASS_NAME" value="tests.booking.tests.junit.BookingTooltipTests" />
+      <option name="METHOD_NAME" value="BookingParisSearchTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-DCONFIG=CHROME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EDGE.BookingJUnitRunner" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.booking.tests.junit" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-DCONFIG=EDGE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Booking_TestNG_EDGE" type="MavenRunConfiguration" factoryName="Maven" singleton="false">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="emulateTerminal" value="false" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="mavenHomeType">
+              <MavenHomeType />
+            </option>
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" value="4" />
+            <option name="useMavenConfig" value="true" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-DCONFIG=EDGE$FileDir$" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Chrome.booking.testNG" type="TestNG" singleton="false">
+      <module name="UnitTestsDummy" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-DCONFIG=CHROME" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2\src\test\my.properties" />
+      <properties>
+        <property name="" value="" />
+      </properties>
+      <listeners />
+      <patterns>
+        <pattern testClass="tests.booking.tests.test_ng" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="LaunchBrowser.Before.Run" />
+      </method>
+    </configuration>
+    <configuration name="EDGE.booking.testNG" type="TestNG" singleton="false">
+      <module name="UnitTestsDummy" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-DCONFIG=EDGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingParisSearchTests.BookingParisSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.testng.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.testng.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.testng.tests.BookingParisSearchTests" />
-      <option name="METHOD_NAME" value="BookingParisSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingPrahaSearchTests.BookingPrahaSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.testng.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.testng.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.testng.tests.BookingPrahaSearchTests" />
-      <option name="METHOD_NAME" value="BookingPrahaSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingTooltipTests.BookingTooltips" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.testng.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.testng.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.testng.tests.BookingTooltipTests" />
-      <option name="METHOD_NAME" value="BookingTooltips" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Chrome.BookingTestNGRunner" />
+      <item itemvalue="Application.EDGE.BookingTestNGRunner" />
+      <item itemvalue="JUnit.EDGE.BookingJUnitRunner" />
+      <item itemvalue="JUnit.Chrome.BookingJUnitRunner" />
+      <item itemvalue="JUnit.Chrome.BookingTooltipTest" />
+      <item itemvalue="TestNG.EDGE.booking.testNG" />
+      <item itemvalue="TestNG.Chrome.booking.testNG" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BookingLondonSearchTests" />
-        <item itemvalue="TestNG.BookingTooltipTests.BookingTooltips" />
-        <item itemvalue="Application.BookingTestNGRunner" />
-        <item itemvalue="TestNG.BookingParisSearchTests.BookingParisSearch" />
-        <item itemvalue="TestNG.BookingPrahaSearchTests.BookingPrahaSearch" />
+        <item itemvalue="JUnit.Chrome.BookingTooltipTest" />
+        <item itemvalue="Application.EDGE.BookingTestNGRunner" />
+        <item itemvalue="JUnit.EDGE.BookingJUnitRunner" />
+        <item itemvalue="JUnit.Chrome.BookingJUnitRunner" />
       </list>
     </recent_temporary>
   </component>

@@ -134,5 +134,11 @@
             <artifactId>httpclient5</artifactId>
             <version>5.3.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-edge-driver</artifactId>
+            <version>4.19.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>

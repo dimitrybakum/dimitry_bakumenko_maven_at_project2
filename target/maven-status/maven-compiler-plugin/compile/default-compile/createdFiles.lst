@@ -1,6 +1,6 @@
 NavigationTask.class
+people\Person.class
 GoogleTask.class
 org\example\Main.class
-People\Person.class
+numbers\Numbers.class
 TestWebDriverClass.class
-Numbers\Numbers.class

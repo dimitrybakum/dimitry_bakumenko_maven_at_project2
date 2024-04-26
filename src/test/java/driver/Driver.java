@@ -3,9 +3,11 @@ package driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import java.util.Collections;
 import java.util.Optional;
+
 public class Driver {
     private static WebDriver driver;
 
@@ -16,6 +18,7 @@ public class Driver {
     public static WebDriver getWebDriver() {
         return switch (config) {
             case FF -> getFFDriver();
+            case EDGE -> getEdgeDriver();
             case REMOTE -> getRemoteDriver();
             default ->  getChromeDriver();
         };
@@ -29,14 +32,23 @@ public class Driver {
             caps.addArguments("disable-infobars");
             caps.setExperimentalOption("excludeSwitches",
                     Collections.singletonList("enable-automation"));
+            caps.addArguments("--reset-browsing-instance-between-tests");
             driver = new ChromeDriver(caps);
         }
         return driver;
     }
 
-    public static void driverDestroy() {
+    public static void destroy() {
         driver.quit();
         driver = null;
+    }
+
+    private static WebDriver getEdgeDriver() {
+
+        if (null == driver) {
+            driver = new EdgeDriver();
+        }
+        return driver;
     }
 
     private static WebDriver getFFDriver() {

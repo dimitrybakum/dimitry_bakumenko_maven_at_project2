@@ -3,22 +3,22 @@
 <suite name="Suite BookingTestNG">
     <test name="BookingParisSearch">
         <classes>
-            <class name="tests.testng.tests.BookingParisSearchTests"/>
+            <class name="tests.booking.tests.test_ng.BookingParisSearchTests"/>
         </classes>
     </test>
     <test name="BookingLondonSearch">
         <classes>
-            <class name="tests.testng.tests.BookingLondonSearchTests"/>
+            <class name="tests.booking.tests.test_ng.BookingLondonSearchTests"/>
         </classes>
     </test>
     <test name="BookingPrahaSearch">
         <classes>
-            <class name="tests.testng.tests.BookingPrahaSearchTests"/>
+            <class name="tests.booking.tests.test_ng.BookingPrahaSearchTests"/>
         </classes>
     </test>
     <test name="BookingTooltips">
         <classes>
-            <class name="tests.testng.tests.BookingTooltipTests"/>
+            <class name="tests.booking.tests.test_ng.BookingTooltipTests"/>
         </classes>
     </test>
 </suite>
