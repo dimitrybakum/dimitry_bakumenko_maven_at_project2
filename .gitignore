@@ -5,6 +5,7 @@
 *.log
 
 test-output
+target
 # BlueJ files
 *.ctxt
 
