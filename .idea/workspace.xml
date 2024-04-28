@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="846ec11d-652d-4569-aec8-8cab1ac0c1b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/BookingHomePageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingHomePageXpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/BookingSearchPageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSearchPageXpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingLondonSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingLondonSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingParisSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingParisSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingPrahaSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingPrahaSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingTooltipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingTooltipTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingLondonSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingLondonSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingParisSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingParisSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingPrahaSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingPrahaSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingTooltipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingTooltipTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +68,7 @@
     "Application.bookingLondon.executor": "Run",
     "Cucumber Java.Feature: BookingLondonSearchTests.executor": "Run",
     "Cucumber Java.Scenario: Booking London Search (1).executor": "Run",
+    "Cucumber Java.Scenario: Booking London Search (2).executor": "Run",
     "Cucumber Java.Scenario: Booking London Search.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot;.executor": "Run",
@@ -181,7 +170,7 @@
       <command value="+" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Booking London Search (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Booking London Search (2)">
     <configuration name="Chrome.BookingTestNGRunner" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="runners.BookingTestNGRunner" />
       <module name="UnitTestsDummy" />
@@ -210,15 +199,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Booking London Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Booking London Search (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/BookingLondonSearchTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" />
       <option name="GLUE" value="tests.booking.tests.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UnitTestsDummy" />
       <option name="NAME_FILTER" value="^Booking London Search$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Booking London Search$&quot;" />
-      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: Booking London Search" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -231,15 +219,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: BookingLondonSearch screenshot" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Booking London Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/BookingLondonSearchTests.feature" />
       <option name="GLUE" value="tests.booking.tests.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^BookingLondonSearch screenshot$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^BookingLondonSearch screenshot$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: BookingLondonSearch screenshot" />
+      <option name="NAME_FILTER" value="^Booking London Search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Booking London Search$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Booking London Search" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -425,10 +414,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.Chrome.BookingTestNGRunner" />
+      <item itemvalue="Cucumber Java.Scenario: Booking London Search (2)" />
       <item itemvalue="Cucumber Java.Scenario: Booking London Search (1)" />
       <item itemvalue="Cucumber Java.Scenario: Booking London Search" />
       <item itemvalue="Cucumber Java.Scenario: BookingLondonSearch" />
-      <item itemvalue="Cucumber Java.Scenario: BookingLondonSearch screenshot" />
       <item itemvalue="JUnit.CucumberRunner" />
       <item itemvalue="JUnit.CucumberRunner (1)" />
       <item itemvalue="TestNG.EDGE.booking.testNG" />
@@ -436,11 +425,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Booking London Search (2)" />
         <item itemvalue="Cucumber Java.Scenario: Booking London Search (1)" />
         <item itemvalue="JUnit.CucumberRunner (1)" />
         <item itemvalue="Cucumber Java.Scenario: Booking London Search" />
         <item itemvalue="Cucumber Java.Scenario: BookingLondonSearch" />
-        <item itemvalue="Cucumber Java.Scenario: BookingLondonSearch screenshot" />
       </list>
     </recent_temporary>
   </component>

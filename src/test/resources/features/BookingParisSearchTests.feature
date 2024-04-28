@@ -4,7 +4,7 @@ Feature: BookingLondonSearchTests;
     Given navigate to booking home page
     When wait for page loaded
     When close alert
-    When type in search field "Лондон"
+    When type in search field "Париж"
     Then click [Search] button
     Then click [Submit] button
     When scroll to result 10
