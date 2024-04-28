@@ -1,4 +1,4 @@
-package page.objects.booking;
+package page.objects.booking.xpath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

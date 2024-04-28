@@ -3,21 +3,21 @@ package tests.booking.tests.test_ng;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import page.objects.booking.BookingHomePageXpath;
+import page.objects.booking.xpath.BookingHomePageXpath;
 import tests.BaseTest;
 import utils.Clicker;
 import utils.Waiters;
 
 import static driver.Driver.getWebDriver;
-import static page.objects.booking.BookingHomePageXpath.*;
-import static page.objects.booking.BookingSearchPageXpath.*;
+import static page.objects.booking.xpath.BookingHomePageXpath.*;
+import static page.objects.booking.xpath.BookingSearchPageXpath.*;
 
 public class BookingParisSearchTests extends BaseTest {
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final Clicker clicker = new Clicker();
     public final Waiters waiters = new Waiters();
     @Test
-    public void BookingParisSearch() {
+    public void BookingParisSearch() throws InterruptedException {
         waiters.waitForPageLoaded(5);
         bookingHomePage.getPage(BOOKING_HOME_PAGE);
         bookingHomePage.closeRegistrationAlert(REGISTRATION_ALERT_XPATH);

@@ -3,14 +3,14 @@ package tests.booking.tests.test_ng;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import page.objects.booking.BookingHomePageXpath;
+import page.objects.booking.xpath.BookingHomePageXpath;
 import tests.BaseTest;
 import utils.Clicker;
 import utils.Hover;
 import utils.Waiters;
 
 import static driver.Driver.getWebDriver;
-import static page.objects.booking.BookingHomePageXpath.*;
+import static page.objects.booking.xpath.BookingHomePageXpath.*;
 
 public class BookingTooltipTests extends BaseTest {
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();

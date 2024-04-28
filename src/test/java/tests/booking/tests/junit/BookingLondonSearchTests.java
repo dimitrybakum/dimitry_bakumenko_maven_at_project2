@@ -1,8 +1,8 @@
 package tests.booking.tests.junit;
 import org.junit.Test;
 
-import page.objects.booking.BookingHomePageXpath;
-import page.objects.booking.BookingSearchPageXpath;
+import page.objects.booking.xpath.BookingHomePageXpath;
+import page.objects.booking.xpath.BookingSearchPageXpath;
 import tests.BaseTest;
 import utils.Clicker;
 import utils.Screenshot;
@@ -10,8 +10,8 @@ import utils.Waiters;
 
 import java.io.IOException;
 
-import static page.objects.booking.BookingHomePageXpath.*;
-import static page.objects.booking.BookingSearchPageXpath.*;
+import static page.objects.booking.xpath.BookingHomePageXpath.*;
+import static page.objects.booking.xpath.BookingSearchPageXpath.*;
 
 public class BookingLondonSearchTests extends BaseTest {
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();

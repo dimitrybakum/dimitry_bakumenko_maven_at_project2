@@ -39,8 +39,10 @@ public class Driver {
     }
 
     public static void destroy() {
-        driver.quit();
-        driver = null;
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
     }
 
     private static WebDriver getEdgeDriver() {

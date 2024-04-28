@@ -17,7 +17,7 @@ public class Waiters {
     }
     public void explicitWait() {
         Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
-        WebDriverWait wait = new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(25));
+        waitForPageLoaded(10);
     }
     public void waitForPageLoaded(int seconds) {
         Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
