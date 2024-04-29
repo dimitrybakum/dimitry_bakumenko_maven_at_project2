@@ -1,6 +1,6 @@
-Feature: BookingLondonSearchTests;
+Feature: BookingParisSearchTests;
 
-  Scenario: Booking London Search
+  Scenario: BookingParisSearch
     Given navigate to booking home page
     * wait for page loaded
     * wait for registration alert
@@ -17,5 +17,5 @@ Feature: BookingLondonSearchTests;
     * wait for page loaded
     * expand filters
     * select filter from min to max
-    * check out rating should be "Оценка 6,0"
+    * check out rating for Paris should be "Оценка 6,0"
     Then destroy driver

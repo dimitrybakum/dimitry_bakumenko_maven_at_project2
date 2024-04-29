@@ -24,6 +24,7 @@ public class BookingStepDefinitions {
     public final Waiters waiters = new Waiters();
     public final Screenshot screenshot = new Screenshot();
     public final Clicker clicker = new Clicker();
+    String RATING_CONTAINER_XPATH = "//*[contains(text(),'Оценка по отзывам')]";
     @Given("navigate to booking home page")
     public void navigate_to_booking_home_page() {
         bookingHomePage.getPage("https://booking.com");
@@ -40,10 +41,16 @@ public class BookingStepDefinitions {
         waiters.waitForElement(parisSearchFirstResultXpath);
         bookingHomePage.locationSelection(parisSearchFirstResultXpath);
     }
+    @Given("select praha from search results")
+    public void select_praha_from_search_results() {
+        waiters.waitForPageLoaded(5);
+        waiters.waitForElement(prahaSearchFirstResultXpath);
+        bookingHomePage.locationSelection(prahaSearchFirstResultXpath);
+    }
 
     @When("wait for page loaded")
     public void wait_for_page_loaded() {
-        waiters.waitForPageLoaded(5);
+        waiters.waitForPageLoaded(10);
     }
     @When("wait for registration alert")
     public void wait_for_registration_alert() {
@@ -102,18 +109,23 @@ public class BookingStepDefinitions {
     }
 
     @Then("wait for element {string}")
-    public void waitForElement(String arg0) {
-        waiters.waitForElement(arg0);
+    public void waitForElement(String string) {
+        waiters.waitForElement(string);
     }
 
     @Then("select rating {int} checkbox")
-    public void selectRatingCheckbox(int arg0) {
-        bookingHomePage.selectRating(arg0);
+    public void selectRatingCheckbox(int rating) {
+        bookingHomePage.selectRating(rating);
     }
 
     @Then("close date picker")
     public void closeDatepicker() {
-        getWebDriver().findElement(By.xpath("//*[@id=\"bodyconstraint-inner\"]/div[2]/div/div[1]/div/form/div[1]/div[2]/div/div[1]")).click();
+        getWebDriver().findElement(By.xpath("//*[@id=\"bodyconstraint-inner\"]/div[2]/div/div[2]/div[3]/div[1]/div[3]/div[1]/h2")).click();
+    }
+
+    @Then("wait for new tab")
+    public void waitNewTab() {
+        waiters.waitForNewTab(5);
     }
 
     @When("scroll to rating container")
@@ -138,8 +150,15 @@ public class BookingStepDefinitions {
         clicker.click(selectFilterXpath);
     }
 
-    @Then("check out rating should be {string}")
-    public void checkOutRatingShouldBe(String string) {
+    @Then("check out rating for Paris should be {string}")
+    public void checkOutParisRating(String string) {
         Assert.assertEquals(getWebDriver().findElement(By.xpath(RATING_TO_COMPARE_XPATH)).getText(), string, "Rating of the first sorted hotel is differ than expected");
+    }
+
+    @Then("check out rating for Praha should be 9")
+    public void checkOutPrahaRating() {
+        Assert.assertEquals(getWebDriver().findElement(By.xpath(ratingForCompareXpath)).getText(), "9,0\n" +
+                "Оценка 9", "Rating of the first sorted hotel differ than expected. 9,0\n" +
+                "Оценка 9");
     }
 }

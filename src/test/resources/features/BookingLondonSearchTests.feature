@@ -1,6 +1,6 @@
 Feature: BookingLondonSearchTests;
 
-  Scenario: Booking London Search
+  Scenario: BookingLondonSearch
     Given navigate to booking home page
     * wait for page loaded
     * wait for registration alert
