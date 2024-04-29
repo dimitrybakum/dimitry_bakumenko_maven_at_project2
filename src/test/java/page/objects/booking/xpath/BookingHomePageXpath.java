@@ -1,5 +1,7 @@
 package page.objects.booking.xpath;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -8,6 +10,8 @@ import java.time.LocalDate;
 import static driver.Driver.getWebDriver;
 
 public class BookingHomePageXpath {
+
+    private static final Logger LOGGER = LogManager.getLogger(BookingHomePageXpath.class);
     public final static String BOOKING_HOME_PAGE = "https://www.booking.com/";
     public final static String REGISTRATION_ALERT_XPATH = "//button[@aria-label='Скрыть меню входа в аккаунт.']";
     public final static String SUBMIT_SEARCH_BUTTON_XPATH = "//button[@type=\"submit\"]";
@@ -27,7 +31,9 @@ public class BookingHomePageXpath {
     public static String languageElementTooltipXpath = "//div[@class='a0ac0ffd76 eb4b382ac4 f38a56c611']//*[contains(text(),'Выберите язык')]";
     public static String destinationSearchField = "//*[@id=':re:']";
     public void getPage(String url) {
+
         getWebDriver().get(url);
+        LOGGER.info("booking home page loaded");
     }
 
     public void bookPersonsRooms(int peoples, int rooms) {
@@ -39,22 +45,28 @@ public class BookingHomePageXpath {
             getWebDriver().findElement(By.xpath(addRoomXpath)).click();
         }
         getWebDriver().findElement(By.xpath(submitOcupancyXpath)).click();
+        LOGGER.info("booked "+rooms+" rooms for " + peoples + " peoples");
     }
 
     public void closeRegistrationAlert(String string) {
         getWebDriver().findElement(By.xpath(string)).click();
+        LOGGER.info("registration alert is closed");
+
     }
 
     public void destinationSearch(String string) {
         getWebDriver().findElement(By.xpath(destinationSearchField)).sendKeys(string);
+        LOGGER.info("Destination entered");
     }
 
     public void locationSelection(String string) {
         getWebDriver().findElement(By.xpath(string)).click();
+        LOGGER.info("searsh field with value " + string);
     }
 
     public void selectRating(int rating) {
         getWebDriver().findElement(By.xpath(String.format("//*[@data-testid='filters-group']//div[@data-filters-item='review_score:review_score=%s0']//*[@type='checkbox']", rating))).click();
+        LOGGER.info("checkbox with rating " + rating + " checked");
     }
 
     //ToDo Refactor datePicker. No selection for next month

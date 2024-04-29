@@ -1,5 +1,7 @@
 package tests.booking.tests.junit;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.junit.Test;
@@ -13,6 +15,7 @@ import static driver.Driver.getWebDriver;
 import static page.objects.booking.xpath.BookingHomePageXpath.*;
 
 public class BookingTooltipTests extends BaseTest {
+    private static final Logger LOGGER = LogManager.getLogger(BookingTooltipTests.class);
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final Clicker clicker = new Clicker();
     public final Waiters waiters = new Waiters();
@@ -26,6 +29,6 @@ public class BookingTooltipTests extends BaseTest {
         Assert.assertEquals(getWebDriver().findElement(By.xpath(currencyElementTooltipXpath)).getText(), "Выберите валюту", "Caution! different text for currency tooltip");
         hover.hoverOverElement(languageElementXpath);
         Assert.assertEquals(getWebDriver().findElement(By.xpath(languageElementTooltipXpath)).getText(), "Выберите язык", "Caution! different text for language tooltip");
-        System.out.println("BookingTooltips test passed");
+        LOGGER.info("BookingTooltips test passed");
     }
 }

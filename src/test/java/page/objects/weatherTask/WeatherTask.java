@@ -1,5 +1,7 @@
 package page.objects.weatherTask;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,6 +18,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class WeatherTask {
+    private static final Logger LOGGER = LogManager.getLogger(WeatherTask.class);
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
 
@@ -38,6 +41,7 @@ public class WeatherTask {
 
         WebElement el = driver.findElement(
                 By.cssSelector(String.format("#wob_gsvg > text:nth-child(41)", tomorrow)));
+        LOGGER.info(el.getAttribute("aria-label"));
         System.out.println(el.getAttribute("aria-label"));
         driver.close();
     }

@@ -1,5 +1,7 @@
 package page.objects.people.tests;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import people.Person;
 import org.testng.annotations.*;
 
@@ -9,19 +11,19 @@ import static org.testng.AssertJUnit.*;
 
 
 public class PersonTestNGTest {
-
+    private static final Logger LOGGER = LogManager.getLogger(PersonTestNGTest.class);
 
     Person person = new Person(25);
 
     @Test
     public void testPersonAgeTestNG() {
         assertEquals("The age is not correct!", 25, person.getAge());
-        System.out.println("Passed");
+        LOGGER.info("Passed");
     }
 
     @BeforeMethod
     public void name(Method method) {
-        System.out.println("TestNG: " + method.getName() + " test..");
+        LOGGER.info("TestNG: " + method.getName() + " test..");
 
     }
 }

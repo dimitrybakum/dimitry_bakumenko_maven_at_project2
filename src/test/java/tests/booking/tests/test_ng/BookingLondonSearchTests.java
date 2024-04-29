@@ -1,5 +1,7 @@
 package tests.booking.tests.test_ng;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 import page.objects.booking.xpath.BookingHomePageXpath;
 import page.objects.booking.xpath.BookingSearchPageXpath;
@@ -11,9 +13,11 @@ import utils.Waiters;
 import java.io.IOException;
 
 import static page.objects.booking.xpath.BookingHomePageXpath.*;
-import static page.objects.booking.xpath.BookingSearchPageXpath.*;
+import static page.objects.booking.xpath.BookingSearchPageXpath.SEARCH_RESULT_10_XPATH;
+import static page.objects.booking.xpath.BookingSearchPageXpath.SearchResult10TitleXpath;
 
 public class BookingLondonSearchTests extends BaseTest {
+    private static final Logger LOGGER = LogManager.getLogger(BookingLondonSearchTests.class);
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final BookingSearchPageXpath bookingSearchResultPage = new BookingSearchPageXpath();
     public final Waiters waiters = new Waiters();
@@ -33,7 +37,7 @@ public class BookingLondonSearchTests extends BaseTest {
         bookingSearchResultPage.changeElementBgcToGreen(SEARCH_RESULT_10_XPATH);
         bookingSearchResultPage.changeElementTitleColorToRed(SearchResult10TitleXpath);
         screenshot.getScreenshot("myScreenshot");
-        System.out.println("BookingLondonSearch test passed");
+        LOGGER.info("BookingLondonSearch test passed");
 
     }
 }

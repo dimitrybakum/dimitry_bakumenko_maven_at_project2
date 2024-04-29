@@ -2,6 +2,8 @@ package page.objects.w3school;
 
 import dev.failsafe.internal.util.Assert;
 import driver.Driver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,6 +19,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class W3SchoolsTests {
+    private static final Logger LOGGER = LogManager.getLogger(W3SchoolsTests.class);
     WebDriver driver = Driver.getWebDriver();
 
     @Before
@@ -53,9 +56,9 @@ public class W3SchoolsTests {
                 allCantain = false;
                 break;
             }
-            System.out.println(allCantain);
+            LOGGER.info(allCantain);
         }
-        System.out.println(allCantain);
+        LOGGER.info(allCantain);
 
         Assert.isTrue(allCantain, "Some of result does not contains key word " + "'" + wordToCheck + "'");
     }

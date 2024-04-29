@@ -1,4 +1,6 @@
 package tests.booking.tests.junit;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 
 import page.objects.booking.xpath.BookingHomePageXpath;
@@ -14,6 +16,7 @@ import static page.objects.booking.xpath.BookingHomePageXpath.*;
 import static page.objects.booking.xpath.BookingSearchPageXpath.*;
 
 public class BookingLondonSearchTests extends BaseTest {
+    private static final Logger LOGGER = LogManager.getLogger(BookingLondonSearchTests.class);
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final BookingSearchPageXpath bookingSearchResultPage = new BookingSearchPageXpath();
     public final Waiters waiters = new Waiters();
@@ -33,7 +36,7 @@ public class BookingLondonSearchTests extends BaseTest {
         bookingSearchResultPage.changeElementBgcToGreen(SEARCH_RESULT_10_XPATH);
         bookingSearchResultPage.changeElementTitleColorToRed(SearchResult10TitleXpath);
         screenshot.getScreenshot("myScreenshot");
-        System.out.println("BookingLondonSearch test passed");
+        LOGGER.info("BookingLondonSearch test passed");
 
     }
 }

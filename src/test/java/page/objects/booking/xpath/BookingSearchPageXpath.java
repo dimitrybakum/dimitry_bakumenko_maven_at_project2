@@ -1,6 +1,8 @@
 
 package page.objects.booking.xpath;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -11,6 +13,7 @@ import static driver.Driver.getWebDriver;
 public class BookingSearchPageXpath {
     public final Waiters waiters = new Waiters();
 
+    private static final Logger LOGGER = LogManager.getLogger(BookingSearchPageXpath.class);
     public final static String SEARCH_RESULT_10_XPATH = "//div[@data-testid=\"property-card\"][10]";
     public final static String RATING_APPLIED_XPATH = "//div[@class='a1d43fa1ac']/div/label/input[@checked]";
     public final static String RATING_CONTAINER_XPATH = "//*[contains(text(),'Оценка по отзывам')]";
@@ -23,16 +26,19 @@ public class BookingSearchPageXpath {
         waiters.explicitWait();
         WebElement element = getWebDriver().findElement(By.xpath(string));
         ((JavascriptExecutor) getWebDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+        LOGGER.info("scrolled into view");
     }
 
     public void changeElementTitleColorToRed(String string) {
         WebElement element = getWebDriver().findElement(By.xpath(string));
         ((JavascriptExecutor) getWebDriver()).executeScript("arguments[0].style.color = 'red'", element);
+        LOGGER.info("Title color changed to red");
     }
 
     public void changeElementBgcToGreen(String string) {
         WebElement element = getWebDriver().findElement(By.xpath(string));
         ((JavascriptExecutor) getWebDriver()).executeScript("arguments[0].style.backgroundColor = 'green'", element);
+        LOGGER.info("Background color changed to green");
     }
 
 }

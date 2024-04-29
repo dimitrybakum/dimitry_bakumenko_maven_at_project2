@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="846ec11d-652d-4569-aec8-8cab1ac0c1b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookingPrahaSearchTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/cucumber/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/cucumber/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GoogleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GoogleTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestWebDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestWebDriverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingHomePageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingHomePageXpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSearchPageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSearchPageXpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/demoQA/DemoQATests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/demoQA/DemoQATests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersJUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersJUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersTestNGTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersTestNGTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonTestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/w3school/W3SchoolsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/w3school/W3SchoolsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/weatherTask/WeatherTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/weatherTask/WeatherTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BookingLondonSearchTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BookingLondonSearchTests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingLondonSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingLondonSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingParisSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingParisSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingPrahaSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingPrahaSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingTooltipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingTooltipTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingLondonSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingLondonSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingParisSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingParisSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingPrahaSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingPrahaSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingTooltipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingTooltipTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BookingPrahaSearchTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BookingPrahaSearchTests.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +93,7 @@
     "Cucumber Java.Scenario: Booking London Search (1).executor": "Run",
     "Cucumber Java.Scenario: Booking London Search (2).executor": "Run",
     "Cucumber Java.Scenario: Booking London Search.executor": "Run",
+    "Cucumber Java.Scenario: BookingLondonSearch (1).executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot;.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch.executor": "Run",
@@ -113,6 +132,7 @@
     "JUnit.DemoQATests.executor": "Run",
     "JUnit.NumbersJUnit.executor": "Run",
     "JUnit.NumbersJUnit.testNumberJunit.executor": "Run",
+    "JUnit.NumbersJUnitTests.testNumberJunit.executor": "Run",
     "JUnit.PersonTests.executor": "Run",
     "JUnit.W3cSchoolsTests.executor": "Run",
     "Maven.Booking_TestNG_Chrome.executor": "Run",
@@ -177,7 +197,7 @@
       <command value="+" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: BookingParisSearch">
+  <component name="RunManager" selected="TestNG.Chrome.booking.testNG">
     <configuration name="Chrome.BookingTestNGRunner" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="runners.BookingTestNGRunner" />
       <module name="UnitTestsDummy" />
@@ -301,18 +321,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumbersJUnitTests.testNumberJunit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestsDummy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="page.objects.booking.cucumber.*" />
+          <option name="PATTERN" value="page.objects.numbers.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="page.objects.booking.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="page.objects.booking.cucumber.CucumberRunner" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="page.objects.numbers.tests" />
+      <option name="MAIN_CLASS_NAME" value="page.objects.numbers.tests.NumbersJUnitTests" />
+      <option name="METHOD_NAME" value="testNumberJunit" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -442,17 +462,17 @@
       <item itemvalue="Cucumber Java.Scenario: BookingParisSearch" />
       <item itemvalue="Cucumber Java.Scenario: BookingPrahaSearch" />
       <item itemvalue="Cucumber Java.CucumberSuite" />
-      <item itemvalue="JUnit.CucumberRunner" />
+      <item itemvalue="JUnit.NumbersJUnitTests.testNumberJunit" />
       <item itemvalue="TestNG.EDGE.booking.testNG" />
       <item itemvalue="TestNG.Chrome.booking.testNG" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: BookingParisSearch" />
-        <item itemvalue="Cucumber Java.Scenario: BookingPrahaSearch" />
+        <item itemvalue="JUnit.NumbersJUnitTests.testNumberJunit" />
         <item itemvalue="Cucumber Java.Scenario: BookingLondonSearch (1)" />
+        <item itemvalue="Cucumber Java.Scenario: BookingPrahaSearch" />
+        <item itemvalue="Cucumber Java.Scenario: BookingParisSearch" />
         <item itemvalue="Cucumber Java.CucumberSuite" />
-        <item itemvalue="JUnit.CucumberRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -484,16 +504,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

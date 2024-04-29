@@ -1,6 +1,8 @@
 package page.objects.demoQA;
 
 import driver.Driver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 public class DemoQATests {
+    private static final Logger LOGGER = LogManager.getLogger(DemoQATests.class);
 
     WebDriver driver = Driver.getWebDriver();
 
@@ -27,13 +30,13 @@ public class DemoQATests {
         Select select3 = new Select(element3);
         select3.selectByValue("4");
         select3.getOptions();
-        System.out.println("Passed");
+        LOGGER.info("Passed");
 
         WebElement element5 = driver.findElement(By.xpath("//select[@id='cars']"));
         Select select5 = new Select(element5);
         select5.selectByValue("opel");
         select5.getOptions();
-        System.out.println("Passed");
+        LOGGER.info("Passed");
     }
 
     @After
