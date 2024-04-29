@@ -26,7 +26,7 @@ public class Waiters {
         Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
     public void waitForElement(String string) {
-        new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(20))
+        new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(10))
                 .ignoring(NoSuchElementException.class)
                 .ignoring(StaleElementReferenceException.class)
                 .until(webDriver -> Driver.getWebDriver().findElement(By.xpath(string)));

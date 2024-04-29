@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="846ec11d-652d-4569-aec8-8cab1ac0c1b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSearchPageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSearchPageXpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Waiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Waiters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BookingLondonSearchTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BookingLondonSearchTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
     "Application.bookingLondon.executor": "Run",
     "Cucumber Java.Feature: BookingLondonSearchTests.executor": "Run",
     "Cucumber Java.Scenario: Booking London Search (1).executor": "Run",
-    "Cucumber Java.Scenario: Booking London Search (2).executor": "Run",
+    "Cucumber Java.Scenario: Booking London Search (2).executor": "Debug",
     "Cucumber Java.Scenario: Booking London Search.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot;.executor": "Run",
