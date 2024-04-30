@@ -14,7 +14,7 @@ public class BookingHomePageXpath {
     private static final Logger LOGGER = LogManager.getLogger(BookingHomePageXpath.class);
     public final static String BOOKING_HOME_PAGE = "https://www.booking.com/";
     public final static String REGISTRATION_ALERT_XPATH = "//button[@aria-label='Скрыть меню входа в аккаунт.']";
-    public final static String SUBMIT_SEARCH_BUTTON_XPATH = "//button[@type=\"submit\"]";
+    public final static String SUBMIT_SEARCH_BUTTON_XPATH = "//button[@type='submit']";
     public final static String RATING_TO_COMPARE_XPATH = "//div[@data-testid='property-card'][1]//div[@data-testid='review-score']/div[1]/div";
     public static String londonSearchFirstResultXpath = "//div[text()='Большой Лондон, Великобритания']";
     public static String parisSearchFirstResultXpath = "//div[text()='Иль-де-Франс, Франция']";

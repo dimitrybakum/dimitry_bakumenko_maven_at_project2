@@ -8,4 +8,7 @@ public class Clicker {
     public void click(String string) {
         getWebDriver().findElement(By.xpath(string)).click();
     }
+    public void press(String string) {
+        getWebDriver().findElement(By.xpath(string)).click();
+    }
 }

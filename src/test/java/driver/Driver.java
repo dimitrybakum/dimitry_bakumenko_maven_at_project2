@@ -27,7 +27,8 @@ public class Driver {
     private static WebDriver getChromeDriver() {
         if (null == driver) {
             ChromeOptions caps = new ChromeOptions();
-            caps.addArguments("--incognito");
+            //caps.addArguments("--incognito");
+            caps.addArguments("--disable-cookie-encryption");
             caps.addArguments("start-maximized");
             caps.addArguments("disable-infobars");
             caps.setExperimentalOption("excludeSwitches",

@@ -25,7 +25,7 @@ public class Waiters {
         wait.until(webDriver -> "complete".equals(((JavascriptExecutor) webDriver).executeScript("return document.readyState")));
         Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
-    public void waitForElement(String string) {
+    public void waitForElement(String string) throws InterruptedException {
         new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(10))
                 .ignoring(NoSuchElementException.class)
                 .ignoring(StaleElementReferenceException.class)
@@ -36,5 +36,11 @@ public class Waiters {
                 .until(ExpectedConditions.numberOfWindowsToBe(2));
         ArrayList<String> tabs = new ArrayList<>(Driver.getWebDriver().getWindowHandles());
         Driver.getWebDriver().switchTo().window(tabs.get(tabs.size() - 1));
+    }
+    public void waitForSeconds(int seconds) {
+        Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
+        WebDriverWait wait = new WebDriverWait(Driver.getWebDriver(), Duration.ofSeconds(seconds));
+        wait.until(webDriver -> "complete".equals(((JavascriptExecutor) webDriver).executeScript("return document.readyState")));
+        Driver.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 }

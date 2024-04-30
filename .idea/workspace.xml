@@ -5,30 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="846ec11d-652d-4569-aec8-8cab1ac0c1b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSignInPageXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/TrashMailPageXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Randomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookingLogInTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TrashMailTests.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GoogleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GoogleTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestWebDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestWebDriverClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingHomePageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingHomePageXpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSearchPageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSearchPageXpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/demoQA/DemoQATests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/demoQA/DemoQATests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersJUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersJUnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersTestNGTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/numbers/tests/NumbersTestNGTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonJUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/people/tests/PersonTestNGTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/w3school/W3SchoolsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/w3school/W3SchoolsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/weatherTask/WeatherTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/weatherTask/WeatherTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingLondonSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingLondonSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingParisSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingParisSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingPrahaSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingPrahaSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingTooltipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/junit/BookingTooltipTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingLondonSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingLondonSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingParisSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingParisSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingPrahaSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingPrahaSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingTooltipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/test_ng/BookingTooltipTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BookingPrahaSearchTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BookingPrahaSearchTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Clicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Clicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Waiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Waiters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +72,7 @@
     "Application.LondonSteps.executor": "Run",
     "Application.NavigationTask.executor": "Run",
     "Application.NumbersTest.executor": "Run",
+    "Application.PasswordRandomizer.executor": "Run",
     "Application.TestConfig.executor": "Run",
     "Application.TestWebDriverClass.executor": "Run",
     "Application.W3cSchools.executor": "Run",
@@ -90,9 +81,13 @@
     "Application.bookingLondon.executor": "Run",
     "Cucumber Java.CucumberSuite.executor": "Run",
     "Cucumber Java.Feature: BookingLondonSearchTests.executor": "Run",
+    "Cucumber Java.Feature: BookingRegistration.executor": "Run",
+    "Cucumber Java.Scenario: Booking LogIn (1).executor": "Run",
+    "Cucumber Java.Scenario: Booking LogIn.executor": "Run",
     "Cucumber Java.Scenario: Booking London Search (1).executor": "Run",
     "Cucumber Java.Scenario: Booking London Search (2).executor": "Run",
     "Cucumber Java.Scenario: Booking London Search.executor": "Run",
+    "Cucumber Java.Scenario: Booking SignUp.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch (1).executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot.executor": "Run",
     "Cucumber Java.Scenario: BookingLondonSearch screenshot;.executor": "Run",
@@ -103,6 +98,8 @@
     "Cucumber Java.Scenario: BookingPrahaSearch.executor": "Run",
     "Cucumber Java.Scenario: Find, set new styles, screenshot; (1).executor": "Run",
     "Cucumber Java.Scenario: Find, set new styles, screenshot;.executor": "Run",
+    "Cucumber Java.Scenario: New mail (1).executor": "Run",
+    "Cucumber Java.Scenario: New mail.executor": "Run",
     "JUnit.BookingHoverTask.checkToolTips.executor": "Run",
     "JUnit.BookingHoverTaskTest.checkToolTips.executor": "Run",
     "JUnit.BookingHoverTaskTest.executor": "Run",
@@ -158,6 +155,7 @@
     "TestNG.Booking_TestNG_Chrome.executor": "Run",
     "TestNG.C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project/dimitry_bakumenko_maven_at_project2/testng.xml.executor": "Run",
     "TestNG.C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project2/testng.xml.executor": "Run",
+    "TestNG.Chrome.booking.testNG.executor": "Run",
     "TestNG.NumbersTestNG.executor": "Run",
     "TestNG.NumbersTestNG.testNumber.executor": "Run",
     "TestNG.PersonTestNGTest.testPersonAge.executor": "Run",
@@ -197,7 +195,7 @@
       <command value="+" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Chrome.booking.testNG">
+  <component name="RunManager" selected="Cucumber Java.Feature: BookingRegistration">
     <configuration name="Chrome.BookingTestNGRunner" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="runners.BookingTestNGRunner" />
       <module name="UnitTestsDummy" />
@@ -206,16 +204,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CucumberSuite" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
+    <configuration name="Feature: BookingRegistration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/" />
-      <option name="GLUE" value="tests.booking.tests.cucumber" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
+      <option name="GLUE" value="page.objects.booking.xpath tests.booking.tests.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^Booking London Search$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Booking&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Booking London Search" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: BookingRegistration" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -227,15 +223,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: BookingLondonSearch (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Booking LogIn (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingLondonSearchTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
       <option name="GLUE" value="tests.booking.tests.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^BookingLondonSearch$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^BookingLondonSearch$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: BookingLondonSearch" />
+      <option name="NAME_FILTER" value="^Booking LogIn$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Booking LogIn$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Booking LogIn" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -247,16 +243,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: BookingParisSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Booking SignUp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingParisSearchTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
       <option name="GLUE" value="tests.booking.tests.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^BookingParisSearch$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^BookingParisSearch$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: BookingParisSearch" />
+      <option name="NAME_FILTER" value="^Booking SignUp$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Booking SignUp$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Booking SignUp" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -268,16 +263,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: BookingPrahaSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: New mail (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingPrahaSearchTests.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
       <option name="GLUE" value="tests.booking.tests.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^BookingPrahaSearch$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^BookingPrahaSearch$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: BookingPrahaSearch" />
+      <option name="NAME_FILTER" value="^New mail$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New mail$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: New mail" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -289,17 +283,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CucumberRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: New mail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TrashMailTests.feature" />
+      <option name="GLUE" value="page.objects.booking.xpath" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UnitTestsDummy" />
+      <option name="NAME_FILTER" value="^New mail$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New mail$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: New mail" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="page.objects.booking.cucumber.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="page.objects.booking.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="page.objects.booking.cucumber.CucumberRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -317,22 +316,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-DCONFIG=EDGE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumbersJUnitTests.testNumberJunit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="page.objects.numbers.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="page.objects.numbers.tests" />
-      <option name="MAIN_CLASS_NAME" value="page.objects.numbers.tests.NumbersJUnitTests" />
-      <option name="METHOD_NAME" value="testNumberJunit" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -458,21 +441,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Chrome.BookingTestNGRunner" />
-      <item itemvalue="Cucumber Java.Scenario: BookingLondonSearch (1)" />
-      <item itemvalue="Cucumber Java.Scenario: BookingParisSearch" />
-      <item itemvalue="Cucumber Java.Scenario: BookingPrahaSearch" />
-      <item itemvalue="Cucumber Java.CucumberSuite" />
-      <item itemvalue="JUnit.NumbersJUnitTests.testNumberJunit" />
+      <item itemvalue="Cucumber Java.Feature: BookingRegistration" />
+      <item itemvalue="Cucumber Java.Scenario: Booking LogIn (1)" />
+      <item itemvalue="Cucumber Java.Scenario: Booking SignUp" />
+      <item itemvalue="Cucumber Java.Scenario: New mail" />
+      <item itemvalue="Cucumber Java.Scenario: New mail (1)" />
+      <item itemvalue="JUnit.CucumberRunner" />
       <item itemvalue="TestNG.EDGE.booking.testNG" />
       <item itemvalue="TestNG.Chrome.booking.testNG" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumbersJUnitTests.testNumberJunit" />
-        <item itemvalue="Cucumber Java.Scenario: BookingLondonSearch (1)" />
-        <item itemvalue="Cucumber Java.Scenario: BookingPrahaSearch" />
-        <item itemvalue="Cucumber Java.Scenario: BookingParisSearch" />
-        <item itemvalue="Cucumber Java.CucumberSuite" />
+        <item itemvalue="Cucumber Java.Feature: BookingRegistration" />
+        <item itemvalue="Cucumber Java.Scenario: New mail (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Booking SignUp" />
+        <item itemvalue="Cucumber Java.Scenario: Booking LogIn (1)" />
+        <item itemvalue="Cucumber Java.Scenario: New mail" />
       </list>
     </recent_temporary>
   </component>
