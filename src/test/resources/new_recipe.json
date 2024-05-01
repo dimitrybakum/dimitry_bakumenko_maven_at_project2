@@ -1,0 +1,11 @@
+{
+  "recipename" : "Salad",
+  "ingredlist" : [ {
+    "itemdescription" : "Tomato",
+    "quantity" : 5
+  }, {
+    "itemdescription" : "Cucumber",
+    "quantity" : 4
+  } ],
+  "preptime" : 3
+}

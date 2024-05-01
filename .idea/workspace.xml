@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="846ec11d-652d-4569-aec8-8cab1ac0c1b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingSignInPageXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/TrashMailPageXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Randomizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookingLogInTests.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TrashMailTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/day21_classwork/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/day21_classwork/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/day21_classwork/RecipeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/day21_classwork/restAssured/MyRestAssuredJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/day21_classwork/restAssured/MyRestAssuredXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/day21_classwork/restAssured/MyRestAssuredYaml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/day21_classwork/restAssured/Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingHomePageXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/booking/xpath/BookingHomePageXpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/booking/tests/cucumber/BookingStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Clicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Clicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Waiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Waiters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +63,19 @@
     "Application.Chrome.BookingTestNGRunner.executor": "Run",
     "Application.ClassWorkDay17.executor": "Run",
     "Application.DemoQA.executor": "Run",
+    "Application.Desirialaser.executor": "Run",
     "Application.GoogleWeather.executor": "Run",
     "Application.HoverTask.executor": "Run",
     "Application.LondonSteps.executor": "Run",
+    "Application.MyRestAssured.executor": "Run",
+    "Application.MyRestAssuredJson.executor": "Run",
+    "Application.MyRestAssuredXml.executor": "Run",
+    "Application.MyRestAssuredYaml.executor": "Run",
     "Application.NavigationTask.executor": "Run",
     "Application.NumbersTest.executor": "Run",
     "Application.PasswordRandomizer.executor": "Run",
+    "Application.Recipe.executor": "Run",
+    "Application.RecipeRunner.executor": "Run",
     "Application.TestConfig.executor": "Run",
     "Application.TestWebDriverClass.executor": "Run",
     "Application.W3cSchools.executor": "Run",
@@ -156,6 +159,7 @@
     "TestNG.C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project/dimitry_bakumenko_maven_at_project2/testng.xml.executor": "Run",
     "TestNG.C:/Users/User/Documents/GitHub/dimitry_bakumenko_maven_at_project2/testng.xml.executor": "Run",
     "TestNG.Chrome.booking.testNG.executor": "Run",
+    "TestNG.EDGE.booking.testNG.executor": "Run",
     "TestNG.NumbersTestNG.executor": "Run",
     "TestNG.NumbersTestNG.testNumber.executor": "Run",
     "TestNG.PersonTestNGTest.testPersonAge.executor": "Run",
@@ -178,6 +182,7 @@
       <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project\dimitry_bakumenko_maven_at_project2\src\main\java\org\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2\src\test\java\page\objects" />
       <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2\src\test\resources" />
       <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2\src\test\java\resources\features" />
       <recent name="C:\Users\User\Documents\GitHub\dimitry_bakumenko_maven_at_project2" />
@@ -195,7 +200,7 @@
       <command value="+" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: BookingRegistration">
+  <component name="RunManager" selected="Application.MyRestAssuredJson">
     <configuration name="Chrome.BookingTestNGRunner" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="runners.BookingTestNGRunner" />
       <module name="UnitTestsDummy" />
@@ -204,18 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: BookingRegistration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
-      <option name="GLUE" value="page.objects.booking.xpath tests.booking.tests.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="MyRestAssuredJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.objects.day21_classwork.restAssured.MyRestAssuredJson" />
       <module name="UnitTestsDummy" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: BookingRegistration" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="page.objects.day21_classwork.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,19 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Booking LogIn (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
-      <option name="GLUE" value="tests.booking.tests.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="MyRestAssuredXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.objects.day21_classwork.restAssured.MyRestAssuredXml" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^Booking LogIn$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Booking LogIn$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Booking LogIn" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="page.objects.day21_classwork.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,19 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Booking SignUp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
-      <option name="GLUE" value="tests.booking.tests.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="MyRestAssuredYaml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.objects.day21_classwork.restAssured.MyRestAssuredYaml" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^Booking SignUp$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Booking SignUp$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Booking SignUp" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="page.objects.day21_classwork.restAssured.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,19 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: New mail (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BookingRegistration.feature" />
-      <option name="GLUE" value="tests.booking.tests.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Recipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.objects.day21_classwork.Recipe" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^New mail$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New mail$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: New mail" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="page.objects.day21_classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,19 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: New mail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TrashMailTests.feature" />
-      <option name="GLUE" value="page.objects.booking.xpath" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="RecipeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.objects.day21_classwork.RecipeRunner" />
       <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^New mail$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New mail$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: New mail" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="page.objects.day21_classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,22 +412,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Chrome.BookingTestNGRunner" />
-      <item itemvalue="Cucumber Java.Feature: BookingRegistration" />
-      <item itemvalue="Cucumber Java.Scenario: Booking LogIn (1)" />
-      <item itemvalue="Cucumber Java.Scenario: Booking SignUp" />
-      <item itemvalue="Cucumber Java.Scenario: New mail" />
-      <item itemvalue="Cucumber Java.Scenario: New mail (1)" />
+      <item itemvalue="Application.MyRestAssuredXml" />
+      <item itemvalue="Application.MyRestAssuredYaml" />
+      <item itemvalue="Application.MyRestAssuredJson" />
+      <item itemvalue="Application.Recipe" />
+      <item itemvalue="Application.RecipeRunner" />
       <item itemvalue="JUnit.CucumberRunner" />
       <item itemvalue="TestNG.EDGE.booking.testNG" />
       <item itemvalue="TestNG.Chrome.booking.testNG" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: BookingRegistration" />
-        <item itemvalue="Cucumber Java.Scenario: New mail (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Booking SignUp" />
-        <item itemvalue="Cucumber Java.Scenario: Booking LogIn (1)" />
-        <item itemvalue="Cucumber Java.Scenario: New mail" />
+        <item itemvalue="Application.MyRestAssuredJson" />
+        <item itemvalue="Application.MyRestAssuredYaml" />
+        <item itemvalue="Application.RecipeRunner" />
+        <item itemvalue="Application.MyRestAssuredXml" />
+        <item itemvalue="Application.Recipe" />
       </list>
     </recent_temporary>
   </component>

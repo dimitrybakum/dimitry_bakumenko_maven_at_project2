@@ -13,6 +13,7 @@ import org.testng.Assert;
 import page.objects.booking.xpath.BookingHomePageXpath;
 import page.objects.booking.xpath.BookingSearchPageXpath;
 import page.objects.booking.xpath.BookingSignInPageXpath;
+import tests.BaseTest;
 import utils.Clicker;
 import utils.Screenshot;
 import utils.Waiters;
@@ -24,7 +25,7 @@ import static page.objects.booking.xpath.BookingHomePageXpath.*;
 import static page.objects.booking.xpath.BookingSearchPageXpath.*;
 import static page.objects.booking.xpath.TrashMailPageXpath.final_temp_email_address;
 
-public class BookingStepDefinitions {
+public class BookingStepDefinitions extends BaseTest {
 
     private static final Logger LOGGER = LogManager.getLogger(BookingStepDefinitions.class);
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
