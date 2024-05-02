@@ -17,9 +17,14 @@ public class RecipeRunner {
 
     public static void toJson() throws IOException {
         Recipe recipe = new Recipe(
-                "Salad", Arrays.asList(new Ingredient("Tomato", 5),
-                new Ingredient("Cucumber", 4)), 3);
+                "Salad", Arrays.asList(
+                        new Ingredient("beef", 150),
+                        new Ingredient("beetroots", 4),
+                        new Ingredient("potatoes", 33),
+                        new Ingredient("Tomato", 5),
+                        new Ingredient("Cucumber", 4)), 3);
         objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File("src/test/resources/new_recipe.json"), recipe);
+
     }
 
     public static void fromJson() throws IOException {

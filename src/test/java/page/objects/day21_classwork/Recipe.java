@@ -1,8 +1,5 @@
 package page.objects.day21_classwork;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-
 import java.util.List;
 import java.util.Objects;
 
@@ -43,16 +40,6 @@ public class Recipe {
 
     public void setPreptime(int preptime) {
         this.preptime = preptime;
-    }
-
-    @BeforeClass
-    public void beforeClass() {
-
-    }
-
-    @AfterClass
-    public void afterClass() {
-
     }
 
     @Override
