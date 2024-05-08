@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import tools.EventListener;
 
 @Listeners(EventListener.class)
 public class ReportingTests {

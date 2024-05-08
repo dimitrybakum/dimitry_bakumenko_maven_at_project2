@@ -1,4 +1,4 @@
-package tests.reporting;
+package tools;
 
 import io.restassured.RestAssured;
 import io.restassured.authentication.PreemptiveBasicAuthScheme;

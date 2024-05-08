@@ -1,4 +1,4 @@
-package tests.reporting;
+package tools;
 
 public class Result {
 

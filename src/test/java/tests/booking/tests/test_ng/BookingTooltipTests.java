@@ -4,23 +4,25 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.objects.booking.xpath.BookingHomePageXpath;
 import tests.BaseTest;
+import tools.EventListener;
 import utils.Clicker;
 import utils.Hover;
 import utils.Waiters;
 
 import static driver.Driver.getWebDriver;
 import static page.objects.booking.xpath.BookingHomePageXpath.*;
-
+@Listeners(EventListener.class)
 public class BookingTooltipTests extends BaseTest {
     private static final Logger LOGGER = LogManager.getLogger(BookingTooltipTests.class);
     public final BookingHomePageXpath bookingHomePage = new BookingHomePageXpath();
     public final Clicker clicker = new Clicker();
     public final Waiters waiters = new Waiters();
     public final Hover hover = new Hover();
-    @Test
+    @Test(description = "157944")
     public void BookingTooltips() {
         bookingHomePage.getPage(BOOKING_HOME_PAGE);
         waiters.waitForPageLoaded(20);
